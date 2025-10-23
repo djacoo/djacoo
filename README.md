@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=djacoo&color=0e75b6&style=flat" alt="Profile views" />
-</p>
-
 # Hi there, I’m **jacojacojaco** 👋  
 **Student of Computer Science & Artificial Intelligence** at the Università degli Studi di Verona  
 Passionate about algorithm design, reinforcement learning, automation, and building scalable software solutions.
