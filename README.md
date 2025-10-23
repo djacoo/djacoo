@@ -2,6 +2,12 @@
 **Student of Computer Science & Artificial Intelligence** at the Università degli Studi di Verona  
 Passionate about algorithm design, reinforcement learning, automation, and building scalable software solutions.
 
+<p align="left">
+  <a href="https://djacoo-portfolio-cv.netlify.app">
+    <img src="https://img.shields.io/badge/Explore%20my%20CV-Open%20Portfolio-0A66C2?style=for-the-badge" alt="Explore my CV">
+  </a>
+</p>
+
 ---
 
 ## 🎯 About Me  
