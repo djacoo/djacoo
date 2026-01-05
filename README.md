@@ -35,7 +35,7 @@ class AI_Researcher:
             "learning": ["Deep RL", "Transformers", "Bioinformatics"],
             "building": ["Intelligent Agents", "ML Pipelines", "Research Tools"]
         }
-        self.motto = "Building intelligent systems that make a difference! 🚀"
+        self.motto = "Mao Mao Mao!!"
 
     def get_daily_knowledge(self):
         activities = [
@@ -49,7 +49,7 @@ class AI_Researcher:
         return random.choice(activities)
 
     def say_hi(self):
-        print("👋 Thanks for dropping by! Let's build something amazing together! 🌟")
+        print("👋 Thanks for dropping by! Let's build something craaaazy! 🌟")
 
 me = AI_Researcher()
 me.say_hi()
@@ -85,7 +85,7 @@ me.say_hi()
 📍 Location: Verona, Italy 🇮🇹
 💼 Specialization: ML | RL | Bioinformatics
 🎨 Interests: AI Research | Algorithm Design
-⚡ Fun Fact: I love optimizing everything!
+⚡ Fun Fact: I like orange cats
 🌱 Currently Learning: Advanced RL & Transformers
 🎯 Goal: Contribute to AI for Scientific Discovery
 ```
@@ -134,7 +134,7 @@ me.say_hi()
 
 📚 **Comprehensive AI Master's Notes**
 
-My complete collection of notes and implementations from AI Master's courses. Covers **ML, DL, RL, NLP**, and more! A goldmine for AI enthusiasts and students.
+My complete collection of notes and implementations from AI Master's courses. My uni notes. If anybody needs them (idk...)
 
 **🛠️ Tech Stack:**
 <br><br>
@@ -159,7 +159,7 @@ My complete collection of notes and implementations from AI Master's courses. Co
 
 🔤 **Advanced NLP & LLM Research**
 
-Exploring **Large Language Models**, fine-tuning techniques, and cutting-edge transformer architectures. Pushing the boundaries of natural language understanding!
+Exploring **Large Language Models**, fine-tuning techniques, and cutting-edge transformer architectures.
 
 **🛠️ Tech Stack:**
 <br><br>
@@ -187,7 +187,7 @@ Exploring **Large Language Models**, fine-tuning techniques, and cutting-edge tr
 
 📈 **Modern ML Techniques**
 
-Latest machine learning project showcasing **modern ML techniques**, advanced methodologies, and real-world applications. Practical implementations you can learn from!
+Latest machine learning project showcasing **modern ML techniques**, advanced methodologies, and real-world applications.
 
 **🛠️ Tech Stack:**
 <br><br>
@@ -211,7 +211,7 @@ Latest machine learning project showcasing **modern ML techniques**, advanced me
 
 ⚙️ **Decision Procedure Solver**
 
-Production-ready **decision procedure solver** implementing congruence closure for automated reasoning and formal verification. Advanced algorithmic implementation!
+Production-ready **decision procedure solver** implementing congruence closure for automated reasoning and formal verification. If you don't understand what's this for, no prob - I do not either.
 
 **🛠️ Tech Stack:**
 <br><br>
@@ -237,7 +237,7 @@ Production-ready **decision procedure solver** implementing congruence closure f
 
 🌆 **Smart City RL**
 
-**Reinforcement Learning** applied to smart city energy management systems. Optimizing urban sustainability with AI. Making cities smarter, one algorithm at a time!
+**Reinforcement Learning** applied to smart city energy management systems. Optimizing urban sustainability with AI. Making cities smarter (or less dumb)
 
 **🛠️ Tech Stack:**
 <br><br>
@@ -261,7 +261,7 @@ Production-ready **decision procedure solver** implementing congruence closure f
 
 🧠 **LLM Reasoning Research**
 
-Innovative project exploring **GPT capabilities** for sorting and algorithmic tasks. Pushing the boundaries of LLM reasoning and problem-solving!
+Innovative project exploring **GPT capabilities** for sorting and algorithmic tasks. Ask Claude if you don't know what this means
 
 **🛠️ Tech Stack:**
 <br><br>
@@ -542,9 +542,9 @@ Systems Biology Applications
 
 <br>
 
-I'm always excited to connect with fellow **AI enthusiasts**, **researchers**, and **developers**!
-Whether you want to discuss **cutting-edge ML techniques**, collaborate on **open-source projects**,
-or just chat about the future of **AI and technology** - I'd love to hear from you! 🚀
+I'm (sometimes) cool about connecting with fellow **AI enthusiasts**, **researchers**, and **developers**!
+Whether you want to discuss, collaborate on **open-source projects**,
+or just chat about the next AI that will replace our jobs - I'd love to hear from you! 🚀
 
 <br>
 
@@ -603,7 +603,7 @@ or just chat about the future of **AI and technology** - I'd love to hear from y
 
 If you find my projects **helpful**, **interesting**, or **inspiring**, consider giving them a ⭐
 
-**Every star motivates me to create more awesome open-source projects!** 🌟
+**Optionally, feel free to ask for my paypal and send me some money, I won't judge** 🌟
 
 <br>
 
@@ -619,12 +619,12 @@ If you find my projects **helpful**, **interesting**, or **inspiring**, consider
 
 <br>
 
-### 🎯 *"Building intelligent systems that make a difference, one algorithm at a time."* 💡
+### 🎯 *"Building intelligent systems that (maybe) make a difference!"* 💡
 
 <br>
 
 **Thanks for visiting!** 🚀
-*Happy coding and keep learning!* 📚✨
+*Happy vibe coding y'all!* 📚✨
 
 <br>
 
