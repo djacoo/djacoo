@@ -3,6 +3,8 @@
 <!-- Animated Typing Header -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Jacopo+Parretti+%7C+jacojacojaco;Computer+Science+%26+AI+Student;Passionate+about+ML%2C+RL+%26+Bioinformatics;Building+Intelligent+Systems+%F0%9F%A4%96" alt="Typing SVG" />
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 </div>
 
 <div align="center">
@@ -22,7 +24,7 @@
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🎓 About Me
 
@@ -65,7 +67,7 @@ me.say_hi()
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🚀 Featured Projects
 
@@ -75,6 +77,7 @@ me.say_hi()
 
 ### 🧠 [ai-masters-notes](https://github.com/djacoo/ai-masters-notes)
 ![Stars](https://img.shields.io/github/stars/djacoo/ai-masters-notes?style=social)
+![Forks](https://img.shields.io/github/forks/djacoo/ai-masters-notes?style=social)
 
 My comprehensive notes and implementations from AI Master's courses. Covers ML, DL, RL, NLP, and more!
 
@@ -85,6 +88,7 @@ My comprehensive notes and implementations from AI Master's courses. Covers ML, 
 
 ### 🤖 [nlp-llm-project](https://github.com/djacoo/nlp-llm-project)
 ![Stars](https://img.shields.io/github/stars/djacoo/nlp-llm-project?style=social)
+![Forks](https://img.shields.io/github/forks/djacoo/nlp-llm-project?style=social)
 
 Advanced NLP project exploring Large Language Models, fine-tuning, and transformer architectures.
 
@@ -98,6 +102,7 @@ Advanced NLP project exploring Large Language Models, fine-tuning, and transform
 
 ### 📊 [ml-project-2025](https://github.com/djacoo/ml-project-2025)
 ![Stars](https://img.shields.io/github/stars/djacoo/ml-project-2025?style=social)
+![Forks](https://img.shields.io/github/forks/djacoo/ml-project-2025?style=social)
 
 Latest machine learning project showcasing modern ML techniques and methodologies.
 
@@ -107,6 +112,7 @@ Latest machine learning project showcasing modern ML techniques and methodologie
 <td width="50%">
 
 ### ⚡ [equality-lists-arrays-solver](https://github.com/djacoo/equality-lists-arrays-solver)
+![Stars](https://img.shields.io/github/stars/djacoo/equality-lists-arrays-solver?style=social)
 
 Production-ready decision procedure solver implementing congruence closure for automated reasoning.
 
@@ -119,6 +125,7 @@ Production-ready decision procedure solver implementing congruence closure for a
 <td width="50%">
 
 ### 🏙️ [CityLearnRL-Bioinformatica](https://github.com/djacoo/CityLearnRL-Bioinformatica)
+![Stars](https://img.shields.io/github/stars/djacoo/CityLearnRL-Bioinformatica?style=social)
 
 Reinforcement Learning applied to smart city energy management systems.
 
@@ -128,6 +135,7 @@ Reinforcement Learning applied to smart city energy management systems.
 <td width="50%">
 
 ### 🔤 [SortGPT](https://github.com/djacoo/SortGPT)
+![Stars](https://img.shields.io/github/stars/djacoo/SortGPT?style=social)
 
 Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
@@ -143,7 +151,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 💻 Tech Stack & Skills
 
@@ -200,25 +208,42 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=djacoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=FFFFFF" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=djacoo&theme=tokyonight&hide_border=true&background=0D1117&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7" alt="GitHub Streak" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=djacoo&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9&ring_color=2E9EF7" alt="GitHub Stats" />
+<img width="49%" src="https://streak-stats.demolab.com?user=djacoo&theme=radical&hide_border=true&background=0D1117&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7&sideNums=C9D1D9&currStreakNum=C9D1D9&dates=8B949E&sideLabels=C9D1D9" alt="GitHub Streak" />
+
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=djacoo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=djacoo&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=FFFFFF" alt="Contribution Graph" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=djacoo&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9&icon_color=2E9EF7&langs_count=8" alt="Top Languages" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=djacoo&custom_title=Contribution%20Activity&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=C9D1D9&area=true&area_color=2E9EF7" alt="Contribution Graph" />
+
 </div>
+
+<br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=djacoo&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=djacoo&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=7&row=1" alt="GitHub Trophies" />
 </div>
 
----
+<br>
+
+<!-- Contribution Snake -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🎯 Expertise Areas
 
@@ -270,7 +295,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🌟 Highlights
 
@@ -284,29 +309,17 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
----
-
-## 📈 Contribution Activity
-
-<!--START_SECTION:activity-->
-<div align="center">
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=djacoo&custom_title=Jacopo's%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=FFFFFF&area=true&theme=github-compact)
-
-</div>
-<!--END_SECTION:activity-->
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 💡 Random Dev Quote
 
 <div align="center">
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🤝 Let's Connect
 
@@ -315,41 +328,31 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 I'm always open to interesting conversations and collaboration opportunities!
 Whether you want to discuss **AI, reinforcement learning, bioinformatics**, or just want to chat about tech, feel free to reach out.
 
-### 📬 How to Reach Me
+### 📬 Contact Me
 
 [![Portfolio](https://img.shields.io/badge/🌐_Visit_My_Portfolio-0A66C2?style=for-the-badge)](https://djacoo-portfolio-cv.netlify.app)
 [![Email](https://img.shields.io/badge/📧_jacopo.parretti@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@gmail.com)
+[![University Email](https://img.shields.io/badge/🎓_University_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@studenti.univr.it)
 [![Instagram](https://img.shields.io/badge/📷_@jacopoparrettii-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jacopoparrettii)
 
-### ☕ Support My Work
+<br>
 
-If you find my projects helpful, consider giving them a ⭐️!
+### 💫 Support My Work
 
-[![Star](https://img.shields.io/badge/⭐_Star_My_Repos-yellow?style=for-the-badge)](https://github.com/djacoo?tab=repositories)
+If you find my projects helpful, consider giving them a ⭐
 
-</div>
-
----
-
-<div align="center">
-
-### 🎯 "Building intelligent systems that make a difference, one algorithm at a time."
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
-
-**Thanks for visiting! Happy coding! 🚀**
-
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+[![Star My Repos](https://img.shields.io/badge/⭐_Star_My_Repos-yellow?style=for-the-badge&logo=github&logoColor=black)](https://github.com/djacoo?tab=repositories)
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div align="center">
 
-*Last Updated: January 2026 | Made with ❤️ and Python*
+### 🎯 *"Building intelligent systems that make a difference, one algorithm at a time."*
 
-![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4?style=flat-square)
-![Powered by Coffee](https://img.shields.io/badge/Powered%20by-Coffee-brown?style=flat-square&logo=buy-me-a-coffee)
+<br>
+
+**Thanks for visiting! Happy coding!** 🚀
 
 </div>
