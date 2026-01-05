@@ -1,69 +1,355 @@
-# Hi there, I’m **jacojacojaco** 👋  
-**Student of Computer Science & Artificial Intelligence** at the Università degli Studi di Verona  
-Passionate about algorithm design, reinforcement learning, automation, and building scalable software solutions.
+<div align="center">
 
-<p align="left">
-  <a href="https://djacoo-portfolio-cv.netlify.app">
-    <img src="https://img.shields.io/badge/Explore%20my%20CV-Open%20Portfolio-0A66C2?style=for-the-badge" alt="Explore my CV">
-  </a>
-</p>
+<!-- Animated Typing Header -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Jacopo+Parretti+%7C+jacojacojaco;Computer+Science+%26+AI+Student;Passionate+about+ML%2C+RL+%26+Bioinformatics;Building+Intelligent+Systems+%F0%9F%A4%96" alt="Typing SVG" />
 
----
+</div>
 
-## 🎯 About Me  
-- Currently focused on **Python**, **Machine Learning**, **Reinforcement Learning**, and **computational Bioinformatics**.  
-- I enjoy designing efficient algorithms, training intelligent agents, and developing tools that connect **biology and AI**.  
-- Particularly interested in **model-based RL**, **multi-agent systems**, and **AI for scientific discovery**.  
-- Outside of coding, I like exploring new research, experimenting with applied projects, and contributing to open-source.
+<div align="center">
 
----
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://djacoo-portfolio-cv.netlify.app)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@gmail.com)
+[![University](https://img.shields.io/badge/University_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@studenti.univr.it)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jacopoparrettii)
 
-## 🛠️ Tech Stack  
+</div>
 
-| Category | Tools / Technologies |
-|-----------|----------------------|
-| **Languages** | Python · JavaScript · SQL · R · C++ |
-| **Machine Learning / AI** | PyTorch · TensorFlow · scikit-learn · Stable-Baselines3 · OpenAI Gym · Hugging Face Transformers · Optuna |
-| **Reinforcement Learning** | PPO · TD3 · SAC · DDPG · A2C · CityLearn · Custom Environments |
-| **Deep Learning Fundamentals** | CNN · RNN · LSTM · GRU · Transformers · Autoencoders · GANs · Attention Mechanisms |
-| **Optimization & Mathematics** | Linear Algebra · Calculus · Probability · Gradient Descent · Convex Optimization · Bayesian Methods |
-| **Data Science & Analysis** | Pandas · NumPy · SciPy · Matplotlib · Seaborn · Jupyter Notebooks |
-| **Automation / Scripting** | Bash · Shell Scripting · Workflow Automation · ETL Pipelines |
-| **Bioinformatics Fundamentals** | Sequence Alignment (BLAST, Clustal) · Genomics · Transcriptomics · Proteomics · Phylogenetic Analysis |
-| **Bioinformatics Tools / Frameworks** | Biopython · BioPandas · Bioconductor (R) · Galaxy · PyMOL · UCSC Genome Browser · Ensembl APIs |
-| **Web / Backend** | FastAPI · Flask · REST APIs · JSON · Docker |
-| **DevOps / Deployment** | Git · GitHub Actions · Docker · AWS · CI/CD Pipelines |
-| **Fundamentals** | Algorithms · Data Structures · Computational Complexity · Optimization · Systems Design |
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=djacoo&color=2e96f7&style=for-the-badge&label=Profile+Views)
+![GitHub followers](https://img.shields.io/github/followers/djacoo?style=for-the-badge&color=2e96f7)
+![GitHub Stars](https://img.shields.io/github/stars/djacoo?style=for-the-badge&color=2e96f7)
+
+</div>
 
 ---
 
-## 🧩 Tech & Tools Badges  
+## 🎓 About Me
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FCC624?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Biopython-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+```python
+class AI_Researcher:
+    def __init__(self):
+        self.name = "Jacopo Parretti"
+        self.role = "CS & AI Student"
+        self.university = "Università degli Studi di Verona"
+        self.location = "Verona, Italy 🇮🇹"
+        self.interests = [
+            "Reinforcement Learning",
+            "Machine Learning",
+            "Computational Bioinformatics",
+            "Algorithm Design",
+            "Multi-Agent Systems"
+        ]
+        self.current_focus = {
+            "research": ["Model-based RL", "AI for Scientific Discovery"],
+            "learning": ["Deep RL", "Transformers", "Bioinformatics"],
+            "building": ["Intelligent Agents", "ML Pipelines", "Research Tools"]
+        }
+
+    def say_hi(self):
+        print("Thanks for dropping by! Let's build something amazing together!")
+
+me = AI_Researcher()
+me.say_hi()
+```
+
+<div align="center">
+
+### 🎯 What I'm Working On
+
+🔬 **Researching** advanced RL algorithms and multi-agent systems
+🧬 **Exploring** AI applications in computational biology
+🤖 **Building** intelligent systems that solve real-world problems
+📚 **Learning** cutting-edge ML/DL techniques and optimization methods
+🌟 **Contributing** to open-source AI and bioinformatics projects
+
+</div>
 
 ---
 
-## 📫 Find Me  
+## 🚀 Featured Projects
 
-- 📧 **Email (personal):** [jacopo.parretti@gmail.com](mailto:jacopo.parretti@gmail.com)  
-- 🎓 **Email (university):** [jacopo.parretti@studenti.univr.it](mailto:jacopo.parretti@studenti.univr.it)  
-- 📷 **Instagram:** [@jacopoparrettii](https://www.instagram.com/jacopoparrettii)
+<table>
+<tr>
+<td width="50%">
+
+### 🧠 [ai-masters-notes](https://github.com/djacoo/ai-masters-notes)
+![Stars](https://img.shields.io/github/stars/djacoo/ai-masters-notes?style=social)
+
+My comprehensive notes and implementations from AI Master's courses. Covers ML, DL, RL, NLP, and more!
+
+**Tech:** ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+
+</td>
+<td width="50%">
+
+### 🤖 [nlp-llm-project](https://github.com/djacoo/nlp-llm-project)
+![Stars](https://img.shields.io/github/stars/djacoo/nlp-llm-project?style=social)
+
+Advanced NLP project exploring Large Language Models, fine-tuning, and transformer architectures.
+
+**Tech:** ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📊 [ml-project-2025](https://github.com/djacoo/ml-project-2025)
+![Stars](https://img.shields.io/github/stars/djacoo/ml-project-2025?style=social)
+
+Latest machine learning project showcasing modern ML techniques and methodologies.
+
+**Tech:** ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
+
+</td>
+<td width="50%">
+
+### ⚡ [equality-lists-arrays-solver](https://github.com/djacoo/equality-lists-arrays-solver)
+
+Production-ready decision procedure solver implementing congruence closure for automated reasoning.
+
+**Tech:** ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=openjdk&logoColor=white) ![MIT](https://img.shields.io/badge/-MIT_License-green?style=flat)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🏙️ [CityLearnRL-Bioinformatica](https://github.com/djacoo/CityLearnRL-Bioinformatica)
+
+Reinforcement Learning applied to smart city energy management systems.
+
+**Tech:** ![RL](https://img.shields.io/badge/-RL-00599C?style=flat) ![OpenAI](https://img.shields.io/badge/-OpenAI_Gym-412991?style=flat&logo=openai&logoColor=white)
+
+</td>
+<td width="50%">
+
+### 🔤 [SortGPT](https://github.com/djacoo/SortGPT)
+
+Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
+
+**Tech:** ![NLP](https://img.shields.io/badge/-NLP-4B8BBE?style=flat) ![Transformers](https://img.shields.io/badge/-Transformers-FF6F00?style=flat)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![View All Repositories](https://img.shields.io/badge/View_All_Repositories-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/djacoo?tab=repositories)
+
+</div>
 
 ---
 
-Thanks for stopping by!  
-Feel free to explore my repositories and reach out — always open for collaboration, new ideas, and meaningful discussions about **AI, computational biology, and intelligent systems**.
+## 💻 Tech Stack & Skills
+
+<div align="center">
+
+### Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Machine Learning & AI
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+
+### Reinforcement Learning
+![Stable Baselines](https://img.shields.io/badge/Stable_Baselines3-00A3E0?style=for-the-badge)
+![OpenAI Gym](https://img.shields.io/badge/OpenAI_Gym-0081A5?style=for-the-badge&logo=openai&logoColor=white)
+![Optuna](https://img.shields.io/badge/Optuna-8A2BE2?style=for-the-badge)
+
+### Data Science & Analysis
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+### Bioinformatics
+![Biopython](https://img.shields.io/badge/Biopython-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bioconductor](https://img.shields.io/badge/Bioconductor-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![PyMOL](https://img.shields.io/badge/PyMOL-00758F?style=for-the-badge)
+![BLAST](https://img.shields.io/badge/BLAST-004B87?style=for-the-badge)
+
+### Web & Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+
+### DevOps & Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=djacoo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=FFFFFF" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=djacoo&theme=tokyonight&hide_border=true&background=0D1117&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=djacoo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=djacoo&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=FFFFFF" alt="Contribution Graph" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=djacoo&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</div>
+
+---
+
+## 🎯 Expertise Areas
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🤖 Machine Learning
+- Deep Neural Networks
+- CNNs, RNNs, LSTMs, GRUs
+- Transformers & Attention
+- Transfer Learning
+- Model Optimization
+- Hyperparameter Tuning
+
+</td>
+<td width="33%" align="center">
+
+### 🎮 Reinforcement Learning
+- PPO, TD3, SAC, DDPG, A2C
+- Model-based RL
+- Multi-agent Systems
+- Custom Environments
+- Policy Optimization
+- Q-Learning Variants
+
+</td>
+<td width="33%" align="center">
+
+### 🧬 Bioinformatics
+- Sequence Alignment
+- Genomics & Transcriptomics
+- Proteomics Analysis
+- Phylogenetic Analysis
+- Biological Data Mining
+- Systems Biology
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 📈 Additional Skills
+
+**Mathematics & Optimization:** Linear Algebra • Calculus • Probability Theory • Convex Optimization • Bayesian Methods
+**Algorithms:** Data Structures • Computational Complexity • Graph Algorithms • Dynamic Programming • Greedy Algorithms
+**Software Engineering:** Design Patterns • Clean Code • Testing • CI/CD • Agile Methodologies • Code Review
+
+</div>
+
+---
+
+## 🌟 Highlights
+
+<div align="center">
+
+| 🎓 Education | 🔬 Research Interests | 💼 Currently |
+|:---:|:---:|:---:|
+| **MSc in AI & CS** | Model-based RL | Working on ML/RL projects |
+| Università di Verona | Multi-agent Systems | Contributing to open-source |
+| Focus: ML, RL, Bio | AI for Science | Building intelligent agents |
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<!--START_SECTION:activity-->
+<div align="center">
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=djacoo&custom_title=Jacopo's%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=FFFFFF&area=true&theme=github-compact)
+
+</div>
+<!--END_SECTION:activity-->
+
+---
+
+## 💡 Random Dev Quote
+
+<div align="center">
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+I'm always open to interesting conversations and collaboration opportunities!
+Whether you want to discuss **AI, reinforcement learning, bioinformatics**, or just want to chat about tech, feel free to reach out.
+
+### 📬 How to Reach Me
+
+[![Portfolio](https://img.shields.io/badge/🌐_Visit_My_Portfolio-0A66C2?style=for-the-badge)](https://djacoo-portfolio-cv.netlify.app)
+[![Email](https://img.shields.io/badge/📧_jacopo.parretti@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@gmail.com)
+[![Instagram](https://img.shields.io/badge/📷_@jacopoparrettii-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jacopoparrettii)
+
+### ☕ Support My Work
+
+If you find my projects helpful, consider giving them a ⭐️!
+
+[![Star](https://img.shields.io/badge/⭐_Star_My_Repos-yellow?style=for-the-badge)](https://github.com/djacoo?tab=repositories)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🎯 "Building intelligent systems that make a difference, one algorithm at a time."
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+
+**Thanks for visiting! Happy coding! 🚀**
+
+<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+
+</div>
+
+---
+
+<div align="center">
+
+*Last Updated: January 2026 | Made with ❤️ and Python*
+
+![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4?style=flat-square)
+![Powered by Coffee](https://img.shields.io/badge/Powered%20by-Coffee-brown?style=flat-square&logo=buy-me-a-coffee)
+
+</div>
