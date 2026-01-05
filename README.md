@@ -224,10 +224,10 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 <div align="center">
 
 <a href="https://github.com/djacoo">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=djacoo&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=djacoo&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
 </a>
 <a href="https://github.com/djacoo">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=djacoo&theme=react&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7&sideNums=C9D1D9&currStreakNum=C9D1D9&dates=8B949E&sideLabels=C9D1D9" alt="GitHub Streak"/>
+  <img height="180em" src="https://streak-stats.demolab.com/?user=djacoo&theme=react&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7&sideNums=C9D1D9&currStreakNum=C9D1D9&dates=8B949E&sideLabels=C9D1D9" alt="GitHub Streak"/>
 </a>
 
 </div>
@@ -235,10 +235,10 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 <div align="center">
 
 <a href="https://github.com/djacoo">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=djacoo&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9&icon_color=2E9EF7&langs_count=8&hide=html,css" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=djacoo&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9&icon_color=2E9EF7&langs_count=8&hide=html,css" alt="Top Languages"/>
 </a>
 <a href="https://github.com/djacoo">
-  <img height="180em" src="https://github-readme-activity-graph.vercel.app/graph?username=djacoo&custom_title=Contribution%20Activity&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=C9D1D9&area=true&area_color=2E9EF7&height=250" alt="Contribution Graph"/>
+  <img height="180em" src="https://github-readme-activity-graph.vercel.app/graph?username=djacoo&custom_title=Contribution%20Activity&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=C9D1D9&area=true&area_color=2E9EF7" alt="Contribution Graph"/>
 </a>
 
 </div>
@@ -246,7 +246,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 <br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=djacoo&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=7&row=1" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=djacoo&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=7" alt="GitHub Trophies" />
 </div>
 
 ---
