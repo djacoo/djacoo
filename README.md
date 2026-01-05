@@ -1,125 +1,118 @@
 <div align="center">
 
 <!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Jacopo+Parretti+%7C+jacojacojaco;Computer+Science+%26+AI+Student;Passionate+about+ML%2C+RL+%26+Bioinformatics;Building+Intelligent+Systems+%F0%9F%A4%96" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Jacopo+Parretti+%7C+jacojacojaco;Computer+Science+%26+AI+Student+%F0%9F%8E%93;Passionate+about+ML%2C+RL+%26+Bioinformatics+%F0%9F%A7%AC;Building+Intelligent+Systems+%F0%9F%A4%96;Let's+Innovate+Together!+%F0%9F%9A%80" alt="Typing SVG" />
 
-<br>
+<br><br>
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://djacoo-portfolio-cv.netlify.app)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@gmail.com)
 [![University](https://img.shields.io/badge/University_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@studenti.univr.it)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jacopoparrettii)
 
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=djacoo&color=2e96f7&style=for-the-badge&label=Profile+Views)
-![GitHub followers](https://img.shields.io/github/followers/djacoo?style=for-the-badge&color=2e96f7&logo=github)
-![GitHub Stars](https://img.shields.io/github/stars/djacoo?style=for-the-badge&color=2e96f7&logo=github)
-
 </div>
 
 <br>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,24&height=100&section=header"/>
-</p>
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> About Me
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35"> About Me
 
 ```python
 class AI_Researcher:
     def __init__(self):
         self.name = "Jacopo Parretti"
-        self.role = "CS & AI Student"
-        self.university = "Università degli Studi di Verona"
+        self.role = "CS & AI Student 🎓"
+        self.university = "Università degli Studi di Verona 🏛️"
         self.location = "Verona, Italy 🇮🇹"
-        self.interests = [
-            "Reinforcement Learning",
-            "Machine Learning",
-            "Computational Bioinformatics",
-            "Algorithm Design",
-            "Multi-Agent Systems"
+        self.passions = [
+            "🤖 Reinforcement Learning",
+            "🧠 Machine Learning",
+            "🧬 Computational Bioinformatics",
+            "⚡ Algorithm Design",
+            "🎮 Multi-Agent Systems"
         ]
         self.current_focus = {
             "research": ["Model-based RL", "AI for Scientific Discovery"],
             "learning": ["Deep RL", "Transformers", "Bioinformatics"],
             "building": ["Intelligent Agents", "ML Pipelines", "Research Tools"]
         }
+        self.motto = "Building intelligent systems that make a difference! 🚀"
 
     def get_daily_knowledge(self):
-        return random.choice([
-            "Optimizing neural architectures",
-            "Training RL agents",
-            "Analyzing biological sequences",
-            "Reading research papers",
-            "Building ML pipelines"
-        ])
+        activities = [
+            "🔬 Optimizing neural architectures",
+            "🎯 Training RL agents",
+            "🧬 Analyzing biological sequences",
+            "📚 Reading research papers",
+            "⚙️ Building ML pipelines",
+            "💡 Experimenting with new ideas"
+        ]
+        return random.choice(activities)
 
     def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together!")
+        print("👋 Thanks for dropping by! Let's build something amazing together! 🌟")
 
 me = AI_Researcher()
 me.say_hi()
 ```
 
 <div align="center">
+
 <table>
 <tr>
 <td align="center" width="50%">
 
+<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="150">
+
 ### 🎯 What I'm Working On
+
+🔬 **Researching** advanced RL algorithms & multi-agent systems
+🧬 **Exploring** AI applications in computational biology
+🤖 **Building** intelligent systems that solve real problems
+📚 **Learning** cutting-edge ML/DL techniques & optimization
+🌟 **Contributing** to open-source AI & bioinformatics projects
+💡 **Experimenting** with novel AI architectures
 
 </td>
 <td align="center" width="50%">
 
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="150">
+
 ### 🚀 Quick Facts
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-🔬 **Researching** advanced RL algorithms
-🧬 **Exploring** AI for computational biology
-🤖 **Building** intelligent agent systems
-📚 **Learning** cutting-edge ML techniques
-🌟 **Contributing** to open-source projects
-
-</td>
-<td valign="top">
-
 ```yaml
-🎓 Education: MSc in AI & CS
-🏛️ University: Università di Verona
-📍 Location: Verona, Italy
-💼 Focus: ML | RL | Bioinformatics
-⚡ Fun fact: I love algorithms!
+🎓 Degree: MSc in AI & Computer Science
+🏛️ University: Università degli Studi di Verona
+📍 Location: Verona, Italy 🇮🇹
+💼 Specialization: ML | RL | Bioinformatics
+🎨 Interests: AI Research | Algorithm Design
+⚡ Fun Fact: I love optimizing everything!
+🌱 Currently Learning: Advanced RL & Transformers
+🎯 Goal: Contribute to AI for Scientific Discovery
 ```
 
 </td>
 </tr>
 </table>
+
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br>
 
-<!-- Contribution Snake -->
 <div align="center">
-  <h2>🐍 Contribution Snake</h2>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
-  </picture>
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
+</picture>
+
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Featured Projects
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Featured Projects
 
 <div align="center">
 
@@ -127,9 +120,11 @@ me.say_hi()
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [ai-masters-notes](https://github.com/djacoo/ai-masters-notes)
-
 <div align="center">
+
+<img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="80">
+
+### 🧠 [ai-masters-notes](https://github.com/djacoo/ai-masters-notes)
 
 ![Stars](https://img.shields.io/github/stars/djacoo/ai-masters-notes?style=for-the-badge&color=yellow&logo=github)
 ![Forks](https://img.shields.io/github/forks/djacoo/ai-masters-notes?style=for-the-badge&color=blue&logo=github)
@@ -137,19 +132,24 @@ me.say_hi()
 
 </div>
 
-📚 My comprehensive notes and implementations from AI Master's courses. Covers **ML, DL, RL, NLP**, and more! A complete learning resource for AI enthusiasts.
+📚 **Comprehensive AI Master's Notes**
 
-**Tech Stack:**
+My complete collection of notes and implementations from AI Master's courses. Covers **ML, DL, RL, NLP**, and more! A goldmine for AI enthusiasts and students.
+
+**🛠️ Tech Stack:**
 <br><br>
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
 
-### 🤖 [nlp-llm-project](https://github.com/djacoo/nlp-llm-project)
-
 <div align="center">
+
+<img src="https://media.giphy.com/media/fwbZnTftCXVocKzfxR/giphy.gif" width="80">
+
+### 🤖 [nlp-llm-project](https://github.com/djacoo/nlp-llm-project)
 
 ![Stars](https://img.shields.io/github/stars/djacoo/nlp-llm-project?style=for-the-badge&color=yellow&logo=github)
 ![Forks](https://img.shields.io/github/forks/djacoo/nlp-llm-project?style=for-the-badge&color=blue&logo=github)
@@ -157,12 +157,15 @@ me.say_hi()
 
 </div>
 
-🔤 Advanced NLP project exploring **Large Language Models**, fine-tuning techniques, and cutting-edge transformer architectures.
+🔤 **Advanced NLP & LLM Research**
 
-**Tech Stack:**
+Exploring **Large Language Models**, fine-tuning techniques, and cutting-edge transformer architectures. Pushing the boundaries of natural language understanding!
+
+**🛠️ Tech Stack:**
 <br><br>
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/-Transformers-FF6F00?style=for-the-badge)
 
 </td>
 </tr>
@@ -170,9 +173,11 @@ me.say_hi()
 <tr>
 <td width="50%" valign="top">
 
-### 📊 [ml-project-2025](https://github.com/djacoo/ml-project-2025)
-
 <div align="center">
+
+<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80">
+
+### 📊 [ml-project-2025](https://github.com/djacoo/ml-project-2025)
 
 ![Stars](https://img.shields.io/github/stars/djacoo/ml-project-2025?style=for-the-badge&color=yellow&logo=github)
 ![Forks](https://img.shields.io/github/forks/djacoo/ml-project-2025?style=for-the-badge&color=blue&logo=github)
@@ -180,30 +185,38 @@ me.say_hi()
 
 </div>
 
-📈 Latest machine learning project showcasing **modern ML techniques**, advanced methodologies, and real-world applications.
+📈 **Modern ML Techniques**
 
-**Tech Stack:**
+Latest machine learning project showcasing **modern ML techniques**, advanced methodologies, and real-world applications. Practical implementations you can learn from!
+
+**🛠️ Tech Stack:**
 <br><br>
 ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c?style=for-the-badge)
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ [equality-lists-arrays-solver](https://github.com/djacoo/equality-lists-arrays-solver)
-
 <div align="center">
+
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="80">
+
+### ⚡ [equality-lists-arrays-solver](https://github.com/djacoo/equality-lists-arrays-solver)
 
 ![Stars](https://img.shields.io/github/stars/djacoo/equality-lists-arrays-solver?style=for-the-badge&color=yellow&logo=github)
 ![License](https://img.shields.io/github/license/djacoo/equality-lists-arrays-solver?style=for-the-badge&color=green&logo=github)
 
 </div>
 
-⚙️ Production-ready **decision procedure solver** implementing congruence closure for automated reasoning and formal verification.
+⚙️ **Decision Procedure Solver**
 
-**Tech Stack:**
+Production-ready **decision procedure solver** implementing congruence closure for automated reasoning and formal verification. Advanced algorithmic implementation!
+
+**🛠️ Tech Stack:**
 <br><br>
 ![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![Algorithms](https://img.shields.io/badge/-Algorithms-00599C?style=for-the-badge)
 
 </td>
 </tr>
@@ -211,40 +224,50 @@ me.say_hi()
 <tr>
 <td width="50%" valign="top">
 
-### 🏙️ [CityLearnRL-Bioinformatica](https://github.com/djacoo/CityLearnRL-Bioinformatica)
-
 <div align="center">
+
+<img src="https://media.giphy.com/media/l0HlQXlQ3nHyLMvte/giphy.gif" width="80">
+
+### 🏙️ [CityLearnRL-Bioinformatica](https://github.com/djacoo/CityLearnRL-Bioinformatica)
 
 ![Stars](https://img.shields.io/github/stars/djacoo/CityLearnRL-Bioinformatica?style=for-the-badge&color=yellow&logo=github)
 ![Forks](https://img.shields.io/github/forks/djacoo/CityLearnRL-Bioinformatica?style=for-the-badge&color=blue&logo=github)
 
 </div>
 
-🌆 **Reinforcement Learning** applied to smart city energy management systems. Optimizing urban sustainability with AI.
+🌆 **Smart City RL**
 
-**Tech Stack:**
+**Reinforcement Learning** applied to smart city energy management systems. Optimizing urban sustainability with AI. Making cities smarter, one algorithm at a time!
+
+**🛠️ Tech Stack:**
 <br><br>
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/-OpenAI_Gym-412991?style=for-the-badge&logo=openai&logoColor=white)
+![RL](https://img.shields.io/badge/-Reinforcement_Learning-00A3E0?style=for-the-badge)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔤 [SortGPT](https://github.com/djacoo/SortGPT)
-
 <div align="center">
+
+<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="80">
+
+### 🔤 [SortGPT](https://github.com/djacoo/SortGPT)
 
 ![Stars](https://img.shields.io/github/stars/djacoo/SortGPT?style=for-the-badge&color=yellow&logo=github)
 ![Forks](https://img.shields.io/github/forks/djacoo/SortGPT?style=for-the-badge&color=blue&logo=github)
 
 </div>
 
-🧠 Innovative project exploring **GPT capabilities** for sorting and algorithmic tasks. Pushing the boundaries of LLM reasoning.
+🧠 **LLM Reasoning Research**
 
-**Tech Stack:**
+Innovative project exploring **GPT capabilities** for sorting and algorithmic tasks. Pushing the boundaries of LLM reasoning and problem-solving!
+
+**🛠️ Tech Stack:**
 <br><br>
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Transformers](https://img.shields.io/badge/-Transformers-FF6F00?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 </td>
 </tr>
@@ -252,15 +275,13 @@ me.say_hi()
 
 <br>
 
-[![View All Repositories](https://img.shields.io/badge/📂_View_All_Repositories-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=2E9EF7&color=2E9EF7)](https://github.com/djacoo?tab=repositories)
+[![View All Repositories](https://img.shields.io/badge/📂_View_All_My_Repositories-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=2E9EF7&color=2E9EF7)](https://github.com/djacoo?tab=repositories)
 
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br>
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Tech Stack & Skills
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> Tech Stack & Skills
 
 <div align="center">
 
@@ -272,6 +293,7 @@ me.say_hi()
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ### 🧠 Machine Learning & AI
 
@@ -287,6 +309,7 @@ me.say_hi()
 ![Stable Baselines](https://img.shields.io/badge/Stable_Baselines3-00A3E0?style=for-the-badge)
 ![OpenAI Gym](https://img.shields.io/badge/OpenAI_Gym-0081A5?style=for-the-badge&logo=openai&logoColor=white)
 ![Optuna](https://img.shields.io/badge/Optuna-8A2BE2?style=for-the-badge)
+![Ray RLlib](https://img.shields.io/badge/Ray_RLlib-028CF0?style=for-the-badge)
 
 ### 📊 Data Science & Analysis
 
@@ -297,7 +320,7 @@ me.say_hi()
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-### 🧬 Bioinformatics
+### �� Bioinformatics
 
 ![Biopython](https://img.shields.io/badge/Biopython-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Bioconductor](https://img.shields.io/badge/Bioconductor-276DC3?style=for-the-badge&logo=r&logoColor=white)
@@ -318,68 +341,68 @@ me.say_hi()
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br>
 
-## <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="30"> Expertise Areas
+## <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="35"> Expertise Areas
 
 <div align="center">
 
 <table>
 <tr>
-<td width="33%" align="center" style="border: 2px solid #2E9EF7; border-radius: 10px;">
+<td width="33%" align="center">
 
-<img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="100">
+<img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="120">
 
 ### 🤖 Machine Learning
 
 ```yaml
-Core Skills:
-  - Deep Neural Networks
-  - CNNs, RNNs, LSTMs, GRUs
-  - Transformers & Attention
-  - Transfer Learning
-  - Model Optimization
-  - Hyperparameter Tuning
+Core Competencies:
+  🔹 Deep Neural Networks
+  🔹 CNNs, RNNs, LSTMs, GRUs
+  🔹 Transformers & Attention Mechanisms
+  🔹 Transfer Learning
+  🔹 Model Optimization & Tuning
+  🔹 Hyperparameter Optimization
+  🔹 AutoML & Neural Architecture Search
 ```
 
 </td>
-<td width="33%" align="center" style="border: 2px solid #2E9EF7; border-radius: 10px;">
+<td width="33%" align="center">
 
-<img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="100">
+<img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="120">
 
 ### 🎮 Reinforcement Learning
 
 ```yaml
-Core Skills:
-  - PPO, TD3, SAC, DDPG, A2C
-  - Model-based RL
-  - Multi-agent Systems
-  - Custom Environments
-  - Policy Optimization
-  - Q-Learning Variants
+Core Competencies:
+  🔹 Policy Gradient Methods (PPO, TD3)
+  🔹 Actor-Critic Algorithms (SAC, DDPG, A2C)
+  🔹 Model-based RL
+  🔹 Multi-agent Systems
+  🔹 Custom Environment Design
+  🔹 Reward Engineering
+  🔹 Q-Learning & Deep Q-Networks
 ```
 
 </td>
-<td width="33%" align="center" style="border: 2px solid #2E9EF7; border-radius: 10px;">
+<td width="33%" align="center">
 
-<img src="https://media.giphy.com/media/LcfBYS8BKhCvK/giphy.gif" width="100">
+<img src="https://media.giphy.com/media/LcfBYS8BKhCvK/giphy.gif" width="120">
 
 ### 🧬 Bioinformatics
 
 ```yaml
-Core Skills:
-  - Sequence Alignment
-  - Genomics & Transcriptomics
-  - Proteomics Analysis
-  - Phylogenetic Analysis
-  - Biological Data Mining
-  - Systems Biology
+Core Competencies:
+  🔹 Sequence Alignment & Analysis
+  🔹 Genomics & Transcriptomics
+  🔹 Proteomics & Protein Structure
+  🔹 Phylogenetic Analysis
+  🔹 Biological Data Mining
+  🔹 Systems Biology
+  🔹 Computational Drug Discovery
 ```
 
 </td>
@@ -394,32 +417,41 @@ Core Skills:
 <tr>
 <td align="center" width="33%">
 
+<img src="https://media.giphy.com/media/9V7qAYvnaOFp8Ymiqu/giphy.gif" width="60">
+
 **📐 Mathematics & Optimization**
 
-Linear Algebra • Calculus
-Probability Theory
-Convex Optimization
-Bayesian Methods
+🔸 Linear Algebra & Matrix Calculus
+🔸 Probability & Statistics
+🔸 Convex Optimization
+🔸 Bayesian Methods & Inference
+🔸 Numerical Methods
 
 </td>
 <td align="center" width="33%">
+
+<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="60">
 
 **⚡ Algorithms & Data Structures**
 
-Computational Complexity
-Graph Algorithms
-Dynamic Programming
-Greedy Algorithms
+🔸 Computational Complexity Theory
+🔸 Graph Algorithms & Network Analysis
+🔸 Dynamic Programming
+🔸 Greedy Algorithms
+🔸 Advanced Data Structures
 
 </td>
 <td align="center" width="33%">
 
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="60">
+
 **💻 Software Engineering**
 
-Design Patterns • Clean Code
-Testing • CI/CD
-Agile Methodologies
-Code Review
+🔸 Design Patterns & Architecture
+🔸 Clean Code & Best Practices
+🔸 Testing & TDD
+🔸 CI/CD & DevOps
+🔸 Agile Methodologies
 
 </td>
 </tr>
@@ -427,11 +459,9 @@ Code Review
 
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br>
 
-## 🌟 Highlights & Achievements
+## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="35"> Highlights & Achievements
 
 <div align="center">
 
@@ -439,61 +469,62 @@ Code Review
 <tr>
 <td align="center" width="33%">
 
+<img src="https://media.giphy.com/media/SU8FGQei8fcDvqiNPV/giphy.gif" width="100">
+
 ### 🎓 Education
 
-**MSc in AI & CS**
-*Università di Verona*
-📍 Verona, Italy
+**MSc in AI & Computer Science**
+*Università degli Studi di Verona*
 
-**Focus Areas:**
-ML • RL • Bioinformatics
+📍 **Location:** Verona, Italy 🇮🇹
+
+**🎯 Focus Areas:**
+Machine Learning
+Reinforcement Learning
+Bioinformatics
 
 </td>
 <td align="center" width="33%">
+
+<img src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" width="100">
 
 ### 🔬 Research Interests
 
-**Primary Focus:**
-Model-based RL
-Multi-agent Systems
-AI for Scientific Discovery
+**🎯 Primary Focus:**
+🔹 Model-based Reinforcement Learning
+🔹 Multi-agent Systems
+🔹 AI for Scientific Discovery
 
-**Applications:**
-Healthcare • Energy • Climate
+**🌍 Applications:**
+Healthcare • Energy • Climate Change
+Drug Discovery • Systems Biology
 
 </td>
 <td align="center" width="33%">
 
+<img src="https://media.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif" width="100">
+
 ### 💼 Currently
 
-**Working on:**
-ML/RL projects
-Open-source contributions
-Building intelligent agents
+**🚀 Working On:**
+🔹 Advanced ML/RL projects
+🔹 Open-source contributions
+🔹 Intelligent agent systems
 
-**Learning:**
-Advanced RL • Transformers
-Systems Biology
+**📚 Learning:**
+Advanced RL Algorithms
+Transformer Architectures
+Systems Biology Applications
 
 </td>
 </tr>
 </table>
 
-<br>
-
-### 🏆 GitHub Achievements
-
-![Profile Views](https://komarev.com/ghpvc/?username=djacoo&color=2e96f7&style=for-the-badge&label=Total+Profile+Views)
-![GitHub followers](https://img.shields.io/github/followers/djacoo?style=for-the-badge&color=2e96f7&logo=github&label=Followers)
-![GitHub Stars](https://img.shields.io/github/stars/djacoo?style=for-the-badge&color=yellow&logo=github&label=Total+Stars)
-
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br>
 
-## 💡 Daily Dev Quote
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="35"> Daily Dev Quote
 
 <div align="center">
 
@@ -501,16 +532,19 @@ Systems Biology
 
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br>
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Let's Connect!
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> Let's Connect!
 
 <div align="center">
 
-I'm always open to **interesting conversations** and **collaboration opportunities**!
-Whether you want to discuss **AI, reinforcement learning, bioinformatics**, or just want to chat about tech, feel free to reach out.
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100">
+
+<br>
+
+I'm always excited to connect with fellow **AI enthusiasts**, **researchers**, and **developers**!
+Whether you want to discuss **cutting-edge ML techniques**, collaborate on **open-source projects**,
+or just chat about the future of **AI and technology** - I'd love to hear from you! 🚀
 
 <br>
 
@@ -520,34 +554,42 @@ Whether you want to discuss **AI, reinforcement learning, bioinformatics**, or j
 <tr>
 <td align="center" width="25%">
 
+<img src="https://media.giphy.com/media/MdA16VIoXKKxNE8Stk/giphy.gif" width="60">
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://djacoo-portfolio-cv.netlify.app)
 
-**Visit My Portfolio**
-*Explore my CV & projects*
+**🌐 Visit My Portfolio**
+*Explore my CV & Projects*
 
 </td>
 <td align="center" width="25%">
+
+<img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="60">
 
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@gmail.com)
 
-**Email Me**
-*Personal inquiries*
+**📧 Email Me**
+*Personal Inquiries*
 
 </td>
 <td align="center" width="25%">
+
+<img src="https://media.giphy.com/media/3o7TKQ8kAP0f9X5PoY/giphy.gif" width="60">
 
 [![University Email](https://img.shields.io/badge/University-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jacopo.parretti@studenti.univr.it)
 
-**Academic Contact**
-*Research & collaboration*
+**🎓 Academic Contact**
+*Research & Collaboration*
 
 </td>
 <td align="center" width="25%">
 
+<img src="https://media.giphy.com/media/TgKEELs5qjKTTZvCxG/giphy.gif" width="60">
+
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jacopoparrettii)
 
-**Follow Me**
-*Let's connect socially*
+**📷 Follow Me**
+*Let's Connect Socially*
 
 </td>
 </tr>
@@ -557,10 +599,11 @@ Whether you want to discuss **AI, reinforcement learning, bioinformatics**, or j
 
 ### 💫 Support My Work
 
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50">
+<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50">
 
-If you find my projects helpful or interesting, consider giving them a ⭐
-**Every star motivates me to create more awesome projects!**
+If you find my projects **helpful**, **interesting**, or **inspiring**, consider giving them a ⭐
+
+**Every star motivates me to create more awesome open-source projects!** 🌟
 
 <br>
 
@@ -568,25 +611,23 @@ If you find my projects helpful or interesting, consider giving them a ⭐
 
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,16,19,24&height=2"/>
-</p>
+<br><br>
 
 <div align="center">
 
-### 🎯 *"Building intelligent systems that make a difference, one algorithm at a time."*
+<img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="25%">
 
 <br>
 
-<img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
+### 🎯 *"Building intelligent systems that make a difference, one algorithm at a time."* 💡
 
-<br><br>
+<br>
 
 **Thanks for visiting!** 🚀
-*Happy coding and keep learning!*
+*Happy coding and keep learning!* 📚✨
+
+<br>
+
+<img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="50">
 
 </div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,24&height=100&section=footer"/>
-</p>
