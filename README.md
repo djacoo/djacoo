@@ -417,7 +417,7 @@ Core Competencies:
 <tr>
 <td align="center" width="33%">
 
-<img src="https://media.giphy.com/media/9V7qAYvnaOFp8Ymiqu/giphy.gif" width="60">
+<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="60">
 
 **📐 Mathematics & Optimization**
 
@@ -469,7 +469,7 @@ Core Competencies:
 <tr>
 <td align="center" width="33%">
 
-<img src="https://media.giphy.com/media/SU8FGQei8fcDvqiNPV/giphy.gif" width="100">
+<img src="https://media.giphy.com/media/l378khQxt68syiNJm/giphy.gif" width="100">
 
 ### 🎓 Education
 
