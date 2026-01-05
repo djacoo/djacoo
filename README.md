@@ -3,8 +3,6 @@
 <!-- Animated Typing Header -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Jacopo+Parretti+%7C+jacojacojaco;Computer+Science+%26+AI+Student;Passionate+about+ML%2C+RL+%26+Bioinformatics;Building+Intelligent+Systems+%F0%9F%A4%96" alt="Typing SVG" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
 </div>
 
 <div align="center">
@@ -24,7 +22,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 🎓 About Me
 
@@ -67,7 +65,18 @@ me.say_hi()
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
+
+<!-- Contribution Snake -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
 
 ## 🚀 Featured Projects
 
@@ -151,7 +160,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 💻 Tech Stack & Skills
 
@@ -208,21 +217,29 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 📊 GitHub Statistics
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=djacoo&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9&ring_color=2E9EF7" alt="GitHub Stats" />
-<img width="49%" src="https://streak-stats.demolab.com?user=djacoo&theme=radical&hide_border=true&background=0D1117&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7&sideNums=C9D1D9&currStreakNum=C9D1D9&dates=8B949E&sideLabels=C9D1D9" alt="GitHub Streak" />
+<a href="https://github.com/djacoo">
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=djacoo&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+</a>
+<a href="https://github.com/djacoo">
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=djacoo&theme=react&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7&sideNums=C9D1D9&currStreakNum=C9D1D9&dates=8B949E&sideLabels=C9D1D9" alt="GitHub Streak"/>
+</a>
 
 </div>
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=djacoo&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9&icon_color=2E9EF7&langs_count=8" alt="Top Languages" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=djacoo&custom_title=Contribution%20Activity&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=C9D1D9&area=true&area_color=2E9EF7" alt="Contribution Graph" />
+<a href="https://github.com/djacoo">
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=djacoo&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9&icon_color=2E9EF7&langs_count=8&hide=html,css" alt="Top Languages"/>
+</a>
+<a href="https://github.com/djacoo">
+  <img height="180em" src="https://github-readme-activity-graph.vercel.app/graph?username=djacoo&custom_title=Contribution%20Activity&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=C9D1D9&area=true&area_color=2E9EF7&height=250" alt="Contribution Graph"/>
+</a>
 
 </div>
 
@@ -232,18 +249,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
   <img src="https://github-profile-trophy.vercel.app/?username=djacoo&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=7&row=1" alt="GitHub Trophies" />
 </div>
 
-<br>
-
-<!-- Contribution Snake -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 🎯 Expertise Areas
 
@@ -295,7 +301,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 🌟 Highlights
 
@@ -309,7 +315,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 💡 Random Dev Quote
 
@@ -319,7 +325,7 @@ Innovative project exploring GPT capabilities for sorting and algorithmic tasks.
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 🤝 Let's Connect
 
@@ -345,7 +351,7 @@ If you find my projects helpful, consider giving them a ⭐
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 <div align="center">
 
