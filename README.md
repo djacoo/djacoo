@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Jacopo+Parretti+%7C+jacojacojaco;Computer+Science+%26+AI+Student+%F0%9F%8E%93;Passionate+about+ML%2C+RL+%26+Bioinformatics+%F0%9F%A7%AC;Building+Intelligent+Systems+%F0%9F%A4%96;Let's+Innovate+Together!+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Jacopo+Parretti+%7C+jacojacojaco;Computer+Science+%26+AI+Student+%F0%9F%8E%93;ML%2C+RL+%26+Bioinformatics+%F0%9F%A7%AC;Building+Intelligent+Systems+%F0%9F%A4%96;Let's+Vibe+Code+Like+Crazy!+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br><br>
 
