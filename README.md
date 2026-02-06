@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+djacoo!;CS+%26+djacoo" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=700&lines=djacoo!;djacoo!" alt="Typing SVG" />
 
 **MSc in AI & Computer Science @ Universit&agrave; degli Studi di Verona**
 
