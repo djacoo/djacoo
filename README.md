@@ -31,6 +31,14 @@
 
 <div align="center">
 
+[![spotify-github-profile](https://spotify-github-profile.kittinan.vercel.app/api/view?uid=jackskrillex9&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=false&bar_color=2E9EF7)](https://spotify-github-profile.kittinan.vercel.app/api/view?uid=jackskrillex9&redirect=true)
+
+</div>
+
+---
+
+<div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djacoo/djacoo/output/github-contribution-grid-snake.svg">
