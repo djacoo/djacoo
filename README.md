@@ -31,7 +31,7 @@
 
 <div align="center">
 
-[![spotify-github-profile](https://spotify-github-profile.kittinan.vercel.app/api/view?uid=jackskrillex9&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=false&bar_color=2E9EF7)](https://spotify-github-profile.kittinan.vercel.app/api/view?uid=jackskrillex9&redirect=true)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=djacoo&theme=react-dark&hide_border=true&area=true&area_color=2E9EF7&line=2E9EF7&point=FFFFFF)](https://github.com/djacoo)
 
 </div>
 
