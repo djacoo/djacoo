@@ -31,7 +31,7 @@
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=djacoo&theme=react-dark&hide_border=true&area=true&area_color=2E9EF7&line=2E9EF7&point=FFFFFF)](https://github.com/djacoo)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=djacoo&theme=react-dark&hide_border=true&area=true&area_color=2E9EF7&line=2E9EF7&point=FFFFFF&custom_title=Contribution%20Activity)](https://github.com/djacoo)
 
 </div>
 
