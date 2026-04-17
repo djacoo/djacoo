@@ -11,180 +11,281 @@
       <stop offset="1" stop-color="#E7DBBE"/>
     </linearGradient>
     <linearGradient id="inkshine" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="objectBoundingBox">
-      <stop offset="0"   stop-color="#1A140E"><animate attributeName="offset" values="-0.4;0.3;1.4" dur="9s" repeatCount="indefinite"/></stop>
-      <stop offset="0.1" stop-color="#5A4630"><animate attributeName="offset" values="-0.3;0.4;1.5" dur="9s" repeatCount="indefinite"/></stop>
-      <stop offset="0.2" stop-color="#1A140E"><animate attributeName="offset" values="-0.2;0.5;1.6" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="0"   stop-color="#1A140E"><animate attributeName="offset" values="-0.5;0.4;1.5" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="0.08" stop-color="#C49868"><animate attributeName="offset" values="-0.42;0.48;1.58" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="0.16" stop-color="#1A140E"><animate attributeName="offset" values="-0.34;0.56;1.66" dur="6s" repeatCount="indefinite"/></stop>
     </linearGradient>
+    <filter id="halo" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
   </defs>
 
   <!-- warm paper -->
   <rect width="1600" height="820" fill="url(#paper)"/>
 
-  <!-- deep background curve -->
-  <path d="M -60 380 C 400 540, 800 220, 1200 440 S 1600 360, 1700 480" fill="none" stroke="#8A6F4A" stroke-width="0.6" opacity="0.22" stroke-dasharray="3600" stroke-dashoffset="3600">
+  <!-- halo behind wordmark (big, pulsing) -->
+  <circle cx="800" cy="440" r="240" fill="#8A6F4A" filter="url(#halo)" opacity="0.08">
+    <animate attributeName="opacity" values="0.05;0.28;0.05" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="r"       values="220;270;220"    dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- deep background curve (color-cycling) -->
+  <path d="M -60 380 C 400 540, 800 220, 1200 440 S 1600 360, 1700 480" fill="none" stroke="#8A6F4A" stroke-width="0.6" opacity="0.28" stroke-dasharray="3600" stroke-dashoffset="3600">
     <animate attributeName="stroke-dashoffset" values="3600;0;0;-3600" dur="42s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#8A6F4A;#B89268;#6E5536;#8A6F4A" dur="16s" repeatCount="indefinite"/>
   </path>
 
-  <!-- primary flowing curve -->
-  <path d="M -80 160 C 300 340, 600 80, 820 420 S 1320 720, 1680 470" fill="none" stroke="#8A6F4A" stroke-width="1.25" opacity="0.85" stroke-dasharray="3400" stroke-dashoffset="3400">
+  <!-- primary flowing curve (color-cycling) -->
+  <path d="M -80 160 C 300 340, 600 80, 820 420 S 1320 720, 1680 470" fill="none" stroke="#8A6F4A" stroke-width="1.5" opacity="0.9" stroke-dasharray="3400" stroke-dashoffset="3400">
     <animate attributeName="stroke-dashoffset" values="3400;0;0;-3400" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#8A6F4A;#C49868;#8A6F4A;#6E5536;#8A6F4A" dur="12s" repeatCount="indefinite"/>
   </path>
 
   <!-- secondary counter-weave curve -->
-  <path d="M -80 720 C 360 540, 700 820, 1100 560 S 1520 300, 1680 650" fill="none" stroke="#8A6F4A" stroke-width="1" opacity="0.5" stroke-dasharray="3400" stroke-dashoffset="-3400">
+  <path d="M -80 720 C 360 540, 700 820, 1100 560 S 1520 300, 1680 650" fill="none" stroke="#8A6F4A" stroke-width="1.25" opacity="0.6" stroke-dasharray="3400" stroke-dashoffset="-3400">
     <animate attributeName="stroke-dashoffset" values="-3400;0;0;3400" dur="22s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#8A6F4A;#B89268;#8A6F4A" dur="14s" repeatCount="indefinite"/>
   </path>
 
   <!-- whisper curve -->
-  <path d="M 120 80 C 500 260, 900 540, 1500 220" fill="none" stroke="#1A140E" stroke-width="0.5" opacity="0.22" stroke-dasharray="2600" stroke-dashoffset="2600">
+  <path d="M 120 80 C 500 260, 900 540, 1500 220" fill="none" stroke="#1A140E" stroke-width="0.6" opacity="0.25" stroke-dasharray="2600" stroke-dashoffset="2600">
     <animate attributeName="stroke-dashoffset" values="2600;0;0;0" dur="28s" repeatCount="indefinite"/>
   </path>
 
   <!-- drift curve -->
-  <path d="M -40 500 C 280 620, 600 380, 900 580 S 1400 460, 1680 520" fill="none" stroke="#8A6F4A" stroke-width="0.75" opacity="0.35" stroke-dasharray="3200" stroke-dashoffset="3200">
+  <path d="M -40 500 C 280 620, 600 380, 900 580 S 1400 460, 1680 520" fill="none" stroke="#8A6F4A" stroke-width="0.85" opacity="0.4" stroke-dasharray="3200" stroke-dashoffset="3200">
     <animate attributeName="stroke-dashoffset" values="3200;0;0;-3200" dur="36s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#8A6F4A;#B89268;#8A6F4A" dur="18s" repeatCount="indefinite"/>
   </path>
 
-  <!-- echo arches (ripple, concentric) -->
-  <path d="M 510 720 V 320 A 290 220 0 0 1 1090 320 V 720" fill="none" stroke="#1A140E" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.22;0" dur="9s" repeatCount="indefinite"/>
+  <!-- echo arches (concentric ripple) -->
+  <path d="M 510 720 V 320 A 290 220 0 0 1 1090 320 V 720" fill="none" stroke="#1A140E" stroke-width="0.75" opacity="0">
+    <animate attributeName="opacity" values="0;0.35;0" dur="7s" repeatCount="indefinite"/>
   </path>
-  <path d="M 480 740 V 300 A 320 240 0 0 1 1120 300 V 740" fill="none" stroke="#1A140E" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.17;0" dur="9s" begin="3s" repeatCount="indefinite"/>
+  <path d="M 480 740 V 300 A 320 240 0 0 1 1120 300 V 740" fill="none" stroke="#1A140E" stroke-width="0.6" opacity="0">
+    <animate attributeName="opacity" values="0;0.28;0" dur="7s" begin="2s" repeatCount="indefinite"/>
   </path>
-
-  <!-- arched portal with draw/erase -->
-  <path d="M 540 700 V 340 A 260 200 0 0 1 1060 340 V 700" fill="none" stroke="#1A140E" stroke-width="0.75" opacity="0.3" stroke-dasharray="1960" stroke-dashoffset="1960">
-    <animate attributeName="stroke-dashoffset" values="1960;0;0;0;-1960;-1960" dur="30s" repeatCount="indefinite"/>
+  <path d="M 450 760 V 280 A 350 260 0 0 1 1150 280 V 760" fill="none" stroke="#1A140E" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" values="0;0.2;0" dur="7s" begin="4s" repeatCount="indefinite"/>
   </path>
 
-  <!-- dashed orbit ring around portal (slow rotation) -->
-  <ellipse cx="800" cy="520" rx="320" ry="220" fill="none" stroke="#8A6F4A" stroke-width="0.5" opacity="0.3" stroke-dasharray="6 14" transform="rotate(0 800 520)">
-    <animateTransform attributeName="transform" type="rotate" from="0 800 520" to="360 800 520" dur="60s" repeatCount="indefinite"/>
+  <!-- arched portal draw/erase -->
+  <path d="M 540 700 V 340 A 260 200 0 0 1 1060 340 V 700" fill="none" stroke="#1A140E" stroke-width="0.9" opacity="0.4" stroke-dasharray="1960" stroke-dashoffset="1960">
+    <animate attributeName="stroke-dashoffset" values="1960;0;0;0;-1960;-1960" dur="24s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- rotating dashed orbit rings -->
+  <ellipse cx="800" cy="520" rx="320" ry="220" fill="none" stroke="#8A6F4A" stroke-width="0.7" opacity="0.45" stroke-dasharray="6 14">
+    <animateTransform attributeName="transform" type="rotate" from="0 800 520" to="360 800 520" dur="40s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="800" cy="520" rx="360" ry="240" fill="none" stroke="#1A140E" stroke-width="0.5" opacity="0.25" stroke-dasharray="3 18">
+    <animateTransform attributeName="transform" type="rotate" from="360 800 520" to="0 800 520" dur="70s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="800" cy="520" rx="400" ry="270" fill="none" stroke="#8A6F4A" stroke-width="0.4" opacity="0.2" stroke-dasharray="2 22">
+    <animateTransform attributeName="transform" type="rotate" from="0 800 520" to="360 800 520" dur="95s" repeatCount="indefinite"/>
   </ellipse>
 
-  <!-- counter-orbit ring -->
-  <ellipse cx="800" cy="520" rx="360" ry="240" fill="none" stroke="#1A140E" stroke-width="0.4" opacity="0.18" stroke-dasharray="3 18" transform="rotate(0 800 520)">
-    <animateTransform attributeName="transform" type="rotate" from="360 800 520" to="0 800 520" dur="90s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <!-- + cross markers, breathing, staggered, with slow individual rotation -->
-  <g class="ink" font-family="serif" font-size="20">
-    <g transform="translate(200 220)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.2;0.75;0.2" dur="7s" begin="0s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 200 220" to="360 200 220" dur="50s" repeatCount="indefinite"/></g>
-    <g transform="translate(1380 300)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.2;0.75;0.2" dur="7s" begin="1.5s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 1380 300" to="-360 1380 300" dur="55s" repeatCount="indefinite"/></g>
-    <g transform="translate(240 600)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.2;0.75;0.2" dur="7s" begin="3s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 240 600" to="360 240 600" dur="52s" repeatCount="indefinite"/></g>
-    <g transform="translate(1360 660)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.2;0.75;0.2" dur="7s" begin="4.5s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 1360 660" to="-360 1360 660" dur="48s" repeatCount="indefinite"/></g>
-    <g transform="translate(100 460)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.15;0.55;0.15" dur="8s" begin="2s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 100 460" to="360 100 460" dur="45s" repeatCount="indefinite"/></g>
-    <g transform="translate(1500 500)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.15;0.55;0.15" dur="8s" begin="5s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 1500 500" to="-360 1500 500" dur="47s" repeatCount="indefinite"/></g>
+  <!-- corner flourish swashes -->
+  <g fill="none" stroke="#8A6F4A" stroke-width="0.85" opacity="0.7">
+    <path d="M 80 100 Q 140 70 200 110 T 320 100" stroke-dasharray="400" stroke-dashoffset="400"><animate attributeName="stroke-dashoffset" values="400;0;0;-400" dur="14s" repeatCount="indefinite"/></path>
+    <path d="M 1520 100 Q 1460 70 1400 110 T 1280 100" stroke-dasharray="400" stroke-dashoffset="400"><animate attributeName="stroke-dashoffset" values="400;0;0;-400" dur="14s" begin="3s" repeatCount="indefinite"/></path>
+    <path d="M 80 720 Q 140 750 200 710 T 320 720" stroke-dasharray="400" stroke-dashoffset="400"><animate attributeName="stroke-dashoffset" values="400;0;0;-400" dur="14s" begin="6s" repeatCount="indefinite"/></path>
+    <path d="M 1520 720 Q 1460 750 1400 710 T 1280 720" stroke-dasharray="400" stroke-dashoffset="400"><animate attributeName="stroke-dashoffset" values="400;0;0;-400" dur="14s" begin="9s" repeatCount="indefinite"/></path>
   </g>
 
-  <!-- floating gold particles -->
+  <!-- + cross markers, rotating, big breath -->
+  <g class="ink" font-family="serif" font-size="22">
+    <g transform="translate(200 220)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.1;0.85;0.1" dur="5s" begin="0s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 200 220" to="360 200 220" dur="30s" repeatCount="indefinite"/></g>
+    <g transform="translate(1380 300)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.1;0.85;0.1" dur="5s" begin="1s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 1380 300" to="-360 1380 300" dur="32s" repeatCount="indefinite"/></g>
+    <g transform="translate(240 600)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.1;0.85;0.1" dur="5s" begin="2s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 240 600" to="360 240 600" dur="28s" repeatCount="indefinite"/></g>
+    <g transform="translate(1360 660)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.1;0.85;0.1" dur="5s" begin="3s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 1360 660" to="-360 1360 660" dur="26s" repeatCount="indefinite"/></g>
+    <g transform="translate(100 460)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.08;0.7;0.08" dur="6s" begin="1.5s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 100 460" to="360 100 460" dur="24s" repeatCount="indefinite"/></g>
+    <g transform="translate(1500 500)"><text y="0" text-anchor="middle">+<animate attributeName="opacity" values="0.08;0.7;0.08" dur="6s" begin="4s" repeatCount="indefinite"/></text><animateTransform attributeName="transform" type="rotate" from="0 1500 500" to="-360 1500 500" dur="25s" repeatCount="indefinite"/></g>
+  </g>
+
+  <!-- constellation lines between particles -->
+  <g stroke="#8A6F4A" stroke-width="0.35" fill="none">
+    <line x1="360" y1="280" x2="500" y2="640" opacity="0"><animate attributeName="opacity" values="0;0.4;0" dur="10s" begin="0s" repeatCount="indefinite"/></line>
+    <line x1="1260" y1="360" x2="1180" y2="540" opacity="0"><animate attributeName="opacity" values="0;0.4;0" dur="10s" begin="2.5s" repeatCount="indefinite"/></line>
+    <line x1="280" y1="380" x2="500" y2="640" opacity="0"><animate attributeName="opacity" values="0;0.35;0" dur="12s" begin="1.5s" repeatCount="indefinite"/></line>
+    <line x1="1320" y1="580" x2="1180" y2="540" opacity="0"><animate attributeName="opacity" values="0;0.35;0" dur="12s" begin="4s" repeatCount="indefinite"/></line>
+    <line x1="720" y1="140" x2="900" y2="690" opacity="0"><animate attributeName="opacity" values="0;0.3;0" dur="14s" begin="3s" repeatCount="indefinite"/></line>
+    <line x1="420" y1="160" x2="1100" y2="700" opacity="0"><animate attributeName="opacity" values="0;0.25;0" dur="16s" begin="5s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- floating gold particles (bigger, more) -->
   <g fill="#8A6F4A">
-    <circle cx="360"  cy="280" r="2"   opacity="0.55"><animate attributeName="cy" values="280;268;280" dur="9s"  repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.7;0.3" dur="9s"  repeatCount="indefinite"/></circle>
-    <circle cx="1260" cy="360" r="1.8" opacity="0.5"><animate attributeName="cy" values="360;348;360" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.65;0.25" dur="11s" repeatCount="indefinite"/></circle>
-    <circle cx="500"  cy="640" r="2"   opacity="0.5"><animate attributeName="cy" values="640;628;640" dur="13s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.65;0.25" dur="13s" repeatCount="indefinite"/></circle>
-    <circle cx="1180" cy="540" r="1.6" opacity="0.45"><animate attributeName="cy" values="540;530;540" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.6;0.2" dur="10s" repeatCount="indefinite"/></circle>
-    <circle cx="280"  cy="380" r="1.4" opacity="0.4"><animate attributeName="cy" values="380;370;380" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.55;0.2" dur="12s" repeatCount="indefinite"/></circle>
-    <circle cx="1320" cy="580" r="1.5" opacity="0.4"><animate attributeName="cy" values="580;570;580" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.55;0.15" dur="14s" repeatCount="indefinite"/></circle>
-    <circle cx="420"  cy="160" r="1.2" opacity="0.35"><animate attributeName="cy" values="160;152;160" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.5;0.15" dur="10s" repeatCount="indefinite"/></circle>
-    <circle cx="1100" cy="700" r="1.4" opacity="0.4"><animate attributeName="cy" values="700;690;700" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.55;0.15" dur="11s" repeatCount="indefinite"/></circle>
-    <circle cx="720"  cy="140" r="1.3" opacity="0.35"><animate attributeName="cy" values="140;132;140" dur="13s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.5;0.15" dur="13s" repeatCount="indefinite"/></circle>
-    <circle cx="900"  cy="690" r="1.3" opacity="0.35"><animate attributeName="cy" values="690;680;690" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.5;0.15" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="360"  cy="280" r="3"   opacity="0.7"><animate attributeName="cy" values="280;260;280" dur="7s"  repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.95;0.3" dur="7s"  repeatCount="indefinite"/><animate attributeName="r" values="2.5;3.5;2.5" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1260" cy="360" r="2.6" opacity="0.65"><animate attributeName="cy" values="360;340;360" dur="9s"  repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.9;0.25" dur="9s"  repeatCount="indefinite"/><animate attributeName="r" values="2.2;3;2.2" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="500"  cy="640" r="2.8" opacity="0.65"><animate attributeName="cy" values="640;620;640" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0.9;0.25" dur="10s" repeatCount="indefinite"/><animate attributeName="r" values="2.4;3.2;2.4" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="540" r="2.4" opacity="0.6"><animate attributeName="cy" values="540;522;540" dur="8s"  repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.85;0.2" dur="8s" repeatCount="indefinite"/><animate attributeName="r" values="2;2.8;2" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="280"  cy="380" r="2.2" opacity="0.55"><animate attributeName="cy" values="380;362;380" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.8;0.2" dur="11s" repeatCount="indefinite"/></circle>
+    <circle cx="1320" cy="580" r="2.3" opacity="0.55"><animate attributeName="cy" values="580;560;580" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.8;0.2" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="420"  cy="160" r="2"   opacity="0.5"><animate attributeName="cy" values="160;144;160" dur="9s"  repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.75;0.2" dur="9s"  repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="700" r="2.2" opacity="0.55"><animate attributeName="cy" values="700;684;700" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.8;0.2" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="720"  cy="140" r="2"   opacity="0.5"><animate attributeName="cy" values="140;124;140" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.75;0.2" dur="11s" repeatCount="indefinite"/></circle>
+    <circle cx="900"  cy="690" r="2"   opacity="0.5"><animate attributeName="cy" values="690;674;690" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.75;0.2" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="150"  cy="300" r="1.8" opacity="0.45"><animate attributeName="cy" values="300;286;300" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.7;0.15" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="1450" cy="420" r="1.8" opacity="0.45"><animate attributeName="cy" values="420;406;420" dur="13s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.7;0.15" dur="13s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- horizontal scan-line sweep -->
-  <line x1="-100" y1="420" x2="-100" y2="560" stroke="#8A6F4A" stroke-width="0.75" opacity="0">
-    <animate attributeName="x1"      values="-100;1700" dur="24s" repeatCount="indefinite"/>
-    <animate attributeName="x2"      values="-100;1700" dur="24s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.35;0.35;0" dur="24s" repeatCount="indefinite"/>
+  <!-- comet with trailing dots -->
+  <g>
+    <circle r="4" fill="#C49868" filter="url(#softglow)">
+      <animateMotion dur="11s" repeatCount="indefinite" path="M -60 140 Q 400 320 900 220 T 1680 400"/>
+      <animate attributeName="opacity" values="0;1;1;1;0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#B89268">
+      <animateMotion dur="11s" begin="-0.2s" repeatCount="indefinite" path="M -60 140 Q 400 320 900 220 T 1680 400"/>
+      <animate attributeName="opacity" values="0;0.75;0.75;0.75;0" dur="11s" begin="-0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.2" fill="#8A6F4A">
+      <animateMotion dur="11s" begin="-0.4s" repeatCount="indefinite" path="M -60 140 Q 400 320 900 220 T 1680 400"/>
+      <animate attributeName="opacity" values="0;0.5;0.5;0.5;0" dur="11s" begin="-0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.5" fill="#8A6F4A">
+      <animateMotion dur="11s" begin="-0.6s" repeatCount="indefinite" path="M -60 140 Q 400 320 900 220 T 1680 400"/>
+      <animate attributeName="opacity" values="0;0.3;0.3;0.3;0" dur="11s" begin="-0.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- second comet (reverse direction, lower) -->
+  <g>
+    <circle r="3.5" fill="#C49868" filter="url(#softglow)">
+      <animateMotion dur="14s" begin="4s" repeatCount="indefinite" path="M 1680 660 Q 1200 500 700 620 T -60 580"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0.9;0" dur="14s" begin="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.5" fill="#8A6F4A">
+      <animateMotion dur="14s" begin="3.8s" repeatCount="indefinite" path="M 1680 660 Q 1200 500 700 620 T -60 580"/>
+      <animate attributeName="opacity" values="0;0.6;0.6;0.6;0" dur="14s" begin="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.6" fill="#8A6F4A">
+      <animateMotion dur="14s" begin="3.6s" repeatCount="indefinite" path="M 1680 660 Q 1200 500 700 620 T -60 580"/>
+      <animate attributeName="opacity" values="0;0.35;0.35;0.35;0" dur="14s" begin="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- horizontal scan sweep -->
+  <line x1="-100" y1="420" x2="-100" y2="560" stroke="#8A6F4A" stroke-width="1" opacity="0">
+    <animate attributeName="x1"      values="-100;1700" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="x2"      values="-100;1700" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.55;0.55;0" dur="18s" repeatCount="indefinite"/>
   </line>
 
-  <!-- top hairline with cyclic draw -->
+  <!-- vertical scan sweep -->
+  <line x1="700" y1="-80" x2="900" y2="-80" stroke="#8A6F4A" stroke-width="0.85" opacity="0">
+    <animate attributeName="y1"      values="-80;900" dur="22s" begin="5s" repeatCount="indefinite"/>
+    <animate attributeName="y2"      values="-80;900" dur="22s" begin="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.45;0.45;0" dur="22s" begin="5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- top hairline draw -->
   <line x1="80" y1="70" x2="1520" y2="70" stroke="#1A140E" stroke-width="0.75" opacity="0.4" stroke-dasharray="1440" stroke-dashoffset="1440">
-    <animate attributeName="stroke-dashoffset" values="1440;0;0;0;0;-1440" dur="26s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="1440;0;0;0;0;-1440" dur="20s" repeatCount="indefinite"/>
   </line>
 
   <!-- top rail mono -->
-  <text x="80"   y="54" class="mono ink" font-size="11" letter-spacing="2.5">N° 001 &#x2002;&#x00B7;&#x2002; DJACOO<animate attributeName="opacity" values="0.8;1;0.8" dur="10s" repeatCount="indefinite"/></text>
-  <text x="800"  y="54" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="middle" opacity="0.7">A PRIVATE PRACTICE &#x2002;&#x00B7;&#x2002; IMAGINE POSSIBLE<animate attributeName="opacity" values="0.55;0.8;0.55" dur="12s" repeatCount="indefinite"/></text>
-  <text x="1520" y="54" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">MMXXVI<animate attributeName="opacity" values="0.8;1;0.8" dur="10s" begin="2s" repeatCount="indefinite"/></text>
+  <text x="80"   y="54" class="mono ink" font-size="11" letter-spacing="2.5">N° 001 &#x2002;&#x00B7;&#x2002; DJACOO<animate attributeName="opacity" values="0.4;1;0.4" dur="7s" repeatCount="indefinite"/></text>
+  <text x="800"  y="54" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="middle" opacity="0.7">A PRIVATE PRACTICE &#x2002;&#x00B7;&#x2002; IMAGINE POSSIBLE<animate attributeName="opacity" values="0.3;0.85;0.3" dur="9s" repeatCount="indefinite"/></text>
+  <text x="1520" y="54" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">MMXXVI<animate attributeName="opacity" values="0.4;1;0.4" dur="7s" begin="2s" repeatCount="indefinite"/></text>
 
-  <!-- top asterism: rotation + breath + scale + orbit dots -->
+  <!-- top asterism: rotation + breath + scale + orbit dots + ripples -->
   <g transform="translate(800 205)">
+    <circle r="18" fill="none" stroke="#8A6F4A" stroke-width="0.75"><animate attributeName="r" values="10;70" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="4s" repeatCount="indefinite"/></circle>
+    <circle r="18" fill="none" stroke="#8A6F4A" stroke-width="0.75"><animate attributeName="r" values="10;70" dur="4s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="4s" begin="1.3s" repeatCount="indefinite"/></circle>
+    <circle r="18" fill="none" stroke="#8A6F4A" stroke-width="0.75"><animate attributeName="r" values="10;70" dur="4s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="4s" begin="2.6s" repeatCount="indefinite"/></circle>
     <g>
-      <circle cx="48" cy="0" r="2" fill="#8A6F4A" opacity="0.7"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      <circle cx="52" cy="0" r="3" fill="#8A6F4A" opacity="0.8"><animate attributeName="r" values="2.5;4;2.5" dur="3s" repeatCount="indefinite"/></circle>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
     </g>
     <g>
-      <circle cx="62" cy="0" r="1.5" fill="#8A6F4A" opacity="0.55"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="22s" repeatCount="indefinite"/>
+      <circle cx="68" cy="0" r="2.2" fill="#8A6F4A" opacity="0.6"><animate attributeName="r" values="1.8;3;1.8" dur="4s" repeatCount="indefinite"/></circle>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="16s" repeatCount="indefinite"/>
     </g>
     <g>
-      <text y="10" text-anchor="middle" class="gold serif" font-size="28">&#x2726;<animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/></text>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1;1.12;1" dur="5s" repeatCount="indefinite" additive="sum"/>
+      <text y="10" text-anchor="middle" class="gold serif" font-size="32">&#x2726;<animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></text>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="4s" repeatCount="indefinite" additive="sum"/>
     </g>
   </g>
 
-  <!-- wordmark with gradient shimmer + per-letter breath -->
-  <text x="800" y="480" class="serif" font-size="260" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">
-    <tspan>d<animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="0s"   repeatCount="indefinite"/></tspan>
-    <tspan>j<animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="0.4s" repeatCount="indefinite"/></tspan>
-    <tspan>a<animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="0.8s" repeatCount="indefinite"/></tspan>
-    <tspan>c<animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="1.2s" repeatCount="indefinite"/></tspan>
-    <tspan>o<animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="1.6s" repeatCount="indefinite"/></tspan>
-    <tspan>o<animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="2.0s" repeatCount="indefinite"/></tspan>
-  </text>
+  <!-- WORDMARK: halo + scale pulse + gradient shimmer + per-letter levitation -->
+  <g transform="translate(800 480)">
+    <g>
+      <text x="0" y="0" class="serif" font-size="260" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">
+        <tspan y="0">d<animate attributeName="y" values="0;-14;0" dur="4s" begin="0s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0s" repeatCount="indefinite"/></tspan>
+        <tspan y="0">j<animate attributeName="y" values="0;-14;0" dur="4s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0.3s" repeatCount="indefinite"/></tspan>
+        <tspan y="0">a<animate attributeName="y" values="0;-14;0" dur="4s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0.6s" repeatCount="indefinite"/></tspan>
+        <tspan y="0">c<animate attributeName="y" values="0;-14;0" dur="4s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0.9s" repeatCount="indefinite"/></tspan>
+        <tspan y="0">o<animate attributeName="y" values="0;-14;0" dur="4s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="1.2s" repeatCount="indefinite"/></tspan>
+        <tspan y="0">o<animate attributeName="y" values="0;-14;0" dur="4s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="1.5s" repeatCount="indefinite"/></tspan>
+      </text>
+      <animateTransform attributeName="transform" type="scale" values="1;1.025;1" dur="7s" repeatCount="indefinite"/>
+    </g>
+  </g>
 
-  <!-- italic subtitle breath -->
-  <text x="800" y="555" class="serif ink" font-size="38" font-style="italic" text-anchor="middle" opacity="0.85">an ongoing practice<animate attributeName="opacity" values="0.7;1;0.7" dur="8s" repeatCount="indefinite"/></text>
+  <!-- italic subtitle: breath + gentle rotation -->
+  <g transform="translate(800 555)">
+    <text x="0" y="0" class="serif ink" font-size="38" font-style="italic" text-anchor="middle" opacity="0.85">an ongoing practice<animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/></text>
+    <animateTransform attributeName="transform" type="rotate" values="-0.6;0.6;-0.6" dur="9s" additive="sum" repeatCount="indefinite"/>
+  </g>
 
-  <!-- mono sub-subtitle breath -->
-  <text x="800" y="605" class="mono ink" font-size="13" letter-spacing="6" text-anchor="middle" opacity="0.65">ARTIFICIAL INTELLIGENCE &#x2002;&#x00B7;&#x2002; MACHINE LEARNING &#x2002;&#x00B7;&#x2002; BIOINFORMATICS<animate attributeName="opacity" values="0.5;0.8;0.5" dur="14s" repeatCount="indefinite"/></text>
+  <!-- mono sub-subtitle -->
+  <text x="800" y="605" class="mono ink" font-size="13" letter-spacing="6" text-anchor="middle" opacity="0.65">ARTIFICIAL INTELLIGENCE &#x2002;&#x00B7;&#x2002; MACHINE LEARNING &#x2002;&#x00B7;&#x2002; BIOINFORMATICS<animate attributeName="opacity" values="0.3;0.9;0.3" dur="10s" repeatCount="indefinite"/></text>
 
   <!-- left side annotations -->
   <g class="mono ink" font-size="11" letter-spacing="2.5">
-    <text x="170" y="435" opacity="0.7">A PRIVATE<animate attributeName="opacity" values="0.5;0.9;0.5" dur="11s" begin="0s" repeatCount="indefinite"/></text>
-    <text x="170" y="455" opacity="0.7">INVESTIGATION<animate attributeName="opacity" values="0.5;0.9;0.5" dur="11s" begin="1.5s" repeatCount="indefinite"/></text>
-    <text x="170" y="475" opacity="0.45">FOR MAKERS<animate attributeName="opacity" values="0.25;0.65;0.25" dur="11s" begin="3s" repeatCount="indefinite"/></text>
+    <text x="170" y="435" opacity="0.7">A PRIVATE<animate attributeName="opacity" values="0.25;1;0.25" dur="8s" begin="0s" repeatCount="indefinite"/></text>
+    <text x="170" y="455" opacity="0.7">INVESTIGATION<animate attributeName="opacity" values="0.25;1;0.25" dur="8s" begin="1s" repeatCount="indefinite"/></text>
+    <text x="170" y="475" opacity="0.45">FOR MAKERS<animate attributeName="opacity" values="0.15;0.75;0.15" dur="8s" begin="2s" repeatCount="indefinite"/></text>
   </g>
 
   <!-- right side annotations -->
   <g class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">
-    <text x="1430" y="435" opacity="0.7">UNIVERSIT&#xC0;<animate attributeName="opacity" values="0.5;0.9;0.5" dur="12s" begin="0s" repeatCount="indefinite"/></text>
-    <text x="1430" y="455" opacity="0.7">DEGLI STUDI<animate attributeName="opacity" values="0.5;0.9;0.5" dur="12s" begin="1.5s" repeatCount="indefinite"/></text>
-    <text x="1430" y="475" opacity="0.7">DI VERONA<animate attributeName="opacity" values="0.5;0.9;0.5" dur="12s" begin="3s" repeatCount="indefinite"/></text>
+    <text x="1430" y="435" opacity="0.7">UNIVERSIT&#xC0;<animate attributeName="opacity" values="0.25;1;0.25" dur="8s" begin="0.5s" repeatCount="indefinite"/></text>
+    <text x="1430" y="455" opacity="0.7">DEGLI STUDI<animate attributeName="opacity" values="0.25;1;0.25" dur="8s" begin="1.5s" repeatCount="indefinite"/></text>
+    <text x="1430" y="475" opacity="0.7">DI VERONA<animate attributeName="opacity" values="0.25;1;0.25" dur="8s" begin="2.5s" repeatCount="indefinite"/></text>
   </g>
 
-  <!-- bottom asterism: rotation + pulse + scale + orbit dots -->
+  <!-- bottom asterism: ripples + orbit dots + rotation + pulse + scale -->
   <g transform="translate(800 675)">
+    <circle r="10" fill="none" stroke="#8A6F4A" stroke-width="1"><animate attributeName="r" values="10;100" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.95;0" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle r="10" fill="none" stroke="#8A6F4A" stroke-width="1"><animate attributeName="r" values="10;100" dur="4.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.95;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle r="10" fill="none" stroke="#8A6F4A" stroke-width="1"><animate attributeName="r" values="10;100" dur="4.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.95;0" dur="4.5s" begin="3s" repeatCount="indefinite"/></circle>
     <g>
-      <circle cx="52" cy="0" r="2" fill="#8A6F4A" opacity="0.7"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="16s" repeatCount="indefinite"/>
+      <circle cx="58" cy="0" r="3.2" fill="#8A6F4A" opacity="0.85"><animate attributeName="r" values="2.8;4.2;2.8" dur="3s" repeatCount="indefinite"/></circle>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="11s" repeatCount="indefinite"/>
     </g>
     <g>
-      <circle cx="68" cy="0" r="1.5" fill="#8A6F4A" opacity="0.5"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+      <circle cx="76" cy="0" r="2.4" fill="#8A6F4A" opacity="0.65"><animate attributeName="r" values="2;3.2;2" dur="4s" repeatCount="indefinite"/></circle>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
     </g>
     <g>
-      <text y="10" text-anchor="middle" class="gold serif" font-size="32">&#x2726;<animate attributeName="opacity" values="0.45;1;0.45" dur="5s" repeatCount="indefinite"/></text>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="50s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="5s" repeatCount="indefinite" additive="sum"/>
+      <circle cx="92" cy="0" r="1.8" fill="#8A6F4A" opacity="0.5"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text y="10" text-anchor="middle" class="gold serif" font-size="36">&#x2726;<animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></text>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="22s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.3;1" dur="4s" repeatCount="indefinite" additive="sum"/>
     </g>
   </g>
 
-  <!-- bottom hairline with cyclic draw -->
+  <!-- bottom hairline draw -->
   <line x1="80" y1="752" x2="1520" y2="752" stroke="#1A140E" stroke-width="0.75" opacity="0.4" stroke-dasharray="1440" stroke-dashoffset="1440">
-    <animate attributeName="stroke-dashoffset" values="1440;0;0;0;0;-1440" dur="26s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="1440;0;0;0;0;-1440" dur="20s" begin="3s" repeatCount="indefinite"/>
   </line>
 
   <!-- bottom rail mono -->
-  <text x="80"   y="774" class="mono ink" font-size="11" letter-spacing="2.5">LAT 45.44&#xB0;N &#x2002;&#x00B7;&#x2002; LON 10.99&#xB0;E<animate attributeName="opacity" values="0.8;1;0.8" dur="13s" repeatCount="indefinite"/></text>
-  <text x="800"  y="774" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="middle">VERONA &#x2002;&#x00B7;&#x2002; ITALIA<animate attributeName="opacity" values="0.75;1;0.75" dur="11s" begin="1.5s" repeatCount="indefinite"/></text>
-  <text x="1520" y="774" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">I &#x2002;&#x2014;&#x2002; I<animate attributeName="opacity" values="0.8;1;0.8" dur="13s" begin="3s" repeatCount="indefinite"/></text>
+  <text x="80"   y="774" class="mono ink" font-size="11" letter-spacing="2.5">LAT 45.44&#xB0;N &#x2002;&#x00B7;&#x2002; LON 10.99&#xB0;E<animate attributeName="opacity" values="0.4;1;0.4" dur="10s" repeatCount="indefinite"/></text>
+  <text x="800"  y="774" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="middle">VERONA &#x2002;&#x00B7;&#x2002; ITALIA<animate attributeName="opacity" values="0.4;1;0.4" dur="9s" begin="1.5s" repeatCount="indefinite"/></text>
+  <text x="1520" y="774" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">I &#x2002;&#x2014;&#x2002; I<animate attributeName="opacity" values="0.4;1;0.4" dur="10s" begin="3s" repeatCount="indefinite"/></text>
 
   <!-- colophon rail -->
-  <text x="80"   y="794" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55">SET IN DIDOT &amp; JETBRAINS MONO<animate attributeName="opacity" values="0.35;0.65;0.35" dur="15s" repeatCount="indefinite"/></text>
-  <text x="800"  y="794" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="middle">NOTHING SHOWN FIRST<animate attributeName="opacity" values="0.35;0.75;0.35" dur="10s" repeatCount="indefinite"/></text>
-  <text x="1520" y="794" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="end">EDITION 01 &#x2044; &#x221E;<animate attributeName="opacity" values="0.35;0.65;0.35" dur="15s" begin="2s" repeatCount="indefinite"/></text>
+  <text x="80"   y="794" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55">SET IN DIDOT &amp; JETBRAINS MONO<animate attributeName="opacity" values="0.2;0.75;0.2" dur="12s" repeatCount="indefinite"/></text>
+  <text x="800"  y="794" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="middle">NOTHING SHOWN FIRST<animate attributeName="opacity" values="0.2;0.9;0.2" dur="8s" repeatCount="indefinite"/></text>
+  <text x="1520" y="794" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="end">EDITION 01 &#x2044; &#x221E;<animate attributeName="opacity" values="0.2;0.75;0.2" dur="12s" begin="2s" repeatCount="indefinite"/></text>
 </svg>
