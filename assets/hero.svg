@@ -27,9 +27,9 @@
   <rect width="1600" height="820" fill="url(#paper)"/>
 
   <!-- halo behind wordmark (big, pulsing) -->
-  <circle cx="800" cy="440" r="240" fill="#8A6F4A" filter="url(#halo)" opacity="0.08">
+  <circle cx="800" cy="410" r="200" fill="#8A6F4A" filter="url(#halo)" opacity="0.08">
     <animate attributeName="opacity" values="0.05;0.28;0.05" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="r"       values="220;270;220"    dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="r"       values="180;230;180"    dur="6s" repeatCount="indefinite"/>
   </circle>
 
   <!-- deep background curve (color-cycling) -->
@@ -212,20 +212,15 @@
     </g>
   </g>
 
-  <!-- WORDMARK: halo + scale pulse + gradient shimmer + per-letter levitation -->
-  <g transform="translate(800 480)">
-    <g>
-      <text x="0" y="0" class="serif" font-size="260" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">
-        <tspan y="0">d<animate attributeName="y" values="0;-14;0" dur="4s" begin="0s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0s" repeatCount="indefinite"/></tspan>
-        <tspan y="0">j<animate attributeName="y" values="0;-14;0" dur="4s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0.3s" repeatCount="indefinite"/></tspan>
-        <tspan y="0">a<animate attributeName="y" values="0;-14;0" dur="4s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0.6s" repeatCount="indefinite"/></tspan>
-        <tspan y="0">c<animate attributeName="y" values="0;-14;0" dur="4s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="0.9s" repeatCount="indefinite"/></tspan>
-        <tspan y="0">o<animate attributeName="y" values="0;-14;0" dur="4s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="1.2s" repeatCount="indefinite"/></tspan>
-        <tspan y="0">o<animate attributeName="y" values="0;-14;0" dur="4s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;1;0.75" dur="4s" begin="1.5s" repeatCount="indefinite"/></tspan>
-      </text>
-      <animateTransform attributeName="transform" type="scale" values="1;1.025;1" dur="7s" repeatCount="indefinite"/>
-    </g>
-  </g>
+  <!-- WORDMARK: gradient shimmer + smooth per-letter opacity wave -->
+  <text x="800" y="475" class="serif" font-size="210" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">
+    <tspan>d<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="0s"    repeatCount="indefinite"/></tspan>
+    <tspan>j<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="0.35s" repeatCount="indefinite"/></tspan>
+    <tspan>a<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="0.7s"  repeatCount="indefinite"/></tspan>
+    <tspan>c<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="1.05s" repeatCount="indefinite"/></tspan>
+    <tspan>o<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="1.4s"  repeatCount="indefinite"/></tspan>
+    <tspan>o<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="1.75s" repeatCount="indefinite"/></tspan>
+  </text>
 
   <!-- italic subtitle: breath + gentle rotation -->
   <g transform="translate(800 555)">
