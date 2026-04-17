@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 540" width="1400" height="540" role="img" aria-label="djacoo — MSc Artificial Intelligence and Computer Science">
+  <defs>
+    <style>
+      .sans  { font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif; }
+      .mono  { font-family: 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+      .ink   { fill: #0A0A0A; }
+      .red   { fill: #E63946; }
+      .rule  { stroke: #0A0A0A; stroke-width: 1; opacity: 0.5; }
+    </style>
+  </defs>
+
+  <!-- paper -->
+  <rect width="1400" height="540" fill="#F4EFE6"/>
+
+  <!-- top hairline + corner marks -->
+  <line x1="60" y1="54" x2="1340" y2="54" class="rule"/>
+  <text x="60"   y="40" class="mono ink" font-size="11" letter-spacing="2.5">N° 001 &#x2022; DJACOO</text>
+  <text x="1340" y="40" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">MMXXVI</text>
+
+  <!-- geometric composition (right) -->
+  <rect x="940"  y="108" width="210" height="210" class="ink"/>
+  <circle cx="1110" cy="288" r="172" class="red"/>
+  <rect x="1288" y="94"  width="3"   height="372" class="ink"/>
+  <circle cx="1110" cy="288" r="6" fill="#F4EFE6"/>
+
+  <!-- wordmark -->
+  <text x="56" y="300" class="sans ink" font-size="196" font-weight="900" letter-spacing="-10">djacoo</text>
+
+  <!-- subtitles -->
+  <text x="62" y="344" class="sans ink" font-size="16" font-weight="700" letter-spacing="4.5">MSC &#x2002;&#x00B7;&#x2002; ARTIFICIAL INTELLIGENCE &#x2002;&#x00B7;&#x2002; COMPUTER SCIENCE</text>
+  <text x="62" y="372" class="sans red" font-size="13" font-weight="500" letter-spacing="5">UNIVERSIT&#xC0; DEGLI STUDI DI VERONA</text>
+
+  <!-- accent bars under subtitle -->
+  <rect x="62"  y="398" width="48"  height="3" class="ink"/>
+  <rect x="118" y="398" width="14"  height="3" class="red"/>
+
+  <!-- bottom hairline + mono metadata -->
+  <line x1="60" y1="488" x2="1340" y2="488" class="rule"/>
+  <text x="60"   y="510" class="mono ink" font-size="11" letter-spacing="2.5">LAT 45.44&#xB0;N &#x2002;&#x00B7;&#x2002; LON 10.99&#xB0;E</text>
+  <text x="700"  y="510" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="middle">AI &#x2002;&#x00B7;&#x2002; ML &#x2002;&#x00B7;&#x2002; BIOINFORMATICS</text>
+  <text x="1340" y="510" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">VERONA / ITALIA</text>
+  <text x="60"   y="528" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55">TYPESET IN HELVETICA &amp; JETBRAINS MONO</text>
+  <text x="1340" y="528" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="end">PROFILE / GITHUB</text>
+</svg>
