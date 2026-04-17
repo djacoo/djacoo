@@ -213,7 +213,7 @@
   </g>
 
   <!-- WORDMARK: gradient shimmer + smooth opacity breath -->
-  <text x="800" y="460" class="serif" font-size="160" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">djacoo<animate attributeName="opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/></text>
+  <text x="800" y="450" class="serif" font-size="130" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">djacoo<animate attributeName="opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/></text>
 
   <!-- italic subtitle: breath + gentle rotation -->
   <g transform="translate(800 555)">
