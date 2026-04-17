@@ -16,51 +16,70 @@
 
 ---
 
-### ABOUT &nbsp;/&nbsp; N°&nbsp;01
+### PRACTICE &nbsp;·&nbsp; N°&nbsp;01
 
-Building at the intersection of **machine learning**, **computational biology**, and **software engineering**. MSc candidate in Artificial Intelligence & Computer Science at Università degli Studi di Verona — interested in models that learn, systems that scale, and problems worth solving.
+I work at the confluence of **machine learning**, **computational biology**, and **software engineering** — designing models that learn, systems that scale, and abstractions that refuse to leak. Currently reading for an MSc in Artificial Intelligence & Computer Science at the Università degli Studi di Verona, where the questions are harder than the answers and the answers are still the interesting part.
 
 ---
 
-### STACK &nbsp;/&nbsp; N°&nbsp;02
+### FOCI &nbsp;·&nbsp; N°&nbsp;02
+
+```
+01   Machine learning on structured & biological data
+02   Generative models, representation learning, interpretability
+03   Reproducible scientific computing and tooling for ML
+04   Bridges between statistical rigor and engineering discipline
+```
+
+---
+
+### STACK &nbsp;·&nbsp; N°&nbsp;03
 
 ```
 AI  ·  MACHINE LEARNING
-    PyTorch  ·  TensorFlow  ·  Keras  ·  scikit-learn  ·  HuggingFace  ·  OpenAI
+     PyTorch   ·   TensorFlow   ·   Keras   ·   scikit-learn   ·   HuggingFace   ·   OpenAI
 
 DATA  ·  SCIENTIFIC COMPUTING
-    NumPy  ·  Pandas  ·  SciPy  ·  Jupyter  ·  Biopython  ·  Bioconductor
+     NumPy   ·   Pandas   ·   SciPy   ·   Jupyter   ·   Biopython   ·   Bioconductor
 
 LANGUAGES
-    Python  ·  C++  ·  Java  ·  R  ·  SQL
+     Python   ·   C++   ·   Java   ·   R   ·   SQL
 
 TOOLS
-    Git  ·  Docker  ·  Linux  ·  VS Code
+     Git   ·   Docker   ·   Linux   ·   VS Code
 ```
 
 ---
 
-### COORDINATES &nbsp;/&nbsp; N°&nbsp;03
+### COORDINATES &nbsp;·&nbsp; N°&nbsp;04
 
 ```
-LAT       45.44° N
-LON       10.99° E
-FIELD     AI  ·  CS
-INST.     UNIVR
+LOCATION      45.44° N   ·   10.99° E
+FIELD         Artificial Intelligence   ·   Computer Science
+INSTITUTION   Università degli Studi di Verona
+STATUS        MSc Candidate   ·   MMXXVI
 ```
 
 ---
 
-### CORRESPONDENCE &nbsp;/&nbsp; N°&nbsp;04
+### CORRESPONDENCE &nbsp;·&nbsp; N°&nbsp;05
 
 ```
-GITHUB      →   github.com/djacoo
-EMAIL       →   jacopo.parretti2003@gmail.com
-LINKEDIN    →   —
+GITHUB        github.com/djacoo
+EMAIL         jacopo.parretti2003@gmail.com
+LINKEDIN      —
 ```
+
+---
+
+### COLOPHON
+
+> This profile is set in *Helvetica Neue* and *JetBrains Mono*, composed on a twelve-column grid with generous margins and deliberate silence. No cards, no trophies, no stock iconography — only type, geometry, and restraint. Drawn by hand, committed in Verona.
 
 ---
 
 <div align="center">
-<sub><code>N° 001 &nbsp;·&nbsp; MMXXVI &nbsp;·&nbsp; VERONA &nbsp;·&nbsp; 45.44°N &nbsp;·&nbsp; 10.99°E</code></sub>
+
+<sub><code>N°&nbsp;001 &nbsp;·&nbsp; MMXXVI &nbsp;·&nbsp; VERONA &nbsp;·&nbsp; 45.44°N &nbsp;·&nbsp; 10.99°E &nbsp;·&nbsp; EDITION&nbsp;01&nbsp;/&nbsp;∞</code></sub>
+
 </div>

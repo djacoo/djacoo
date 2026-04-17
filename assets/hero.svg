@@ -1,44 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 540" width="1400" height="540" role="img" aria-label="djacoo — MSc Artificial Intelligence and Computer Science">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" width="1400" height="620" role="img" aria-label="djacoo — MSc Artificial Intelligence & Computer Science">
   <defs>
     <style>
-      .sans  { font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif; }
-      .mono  { font-family: 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
-      .ink   { fill: #0A0A0A; }
-      .red   { fill: #E63946; }
-      .rule  { stroke: #0A0A0A; stroke-width: 1; opacity: 0.5; }
+      .sans { font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif; }
+      .mono { font-family: 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+      .ink  { fill: #0A0A0A; }
+      .red  { fill: #E63946; }
+      .hair { stroke: #0A0A0A; stroke-width: 0.75; fill: none; }
     </style>
   </defs>
 
   <!-- paper -->
-  <rect width="1400" height="540" fill="#F4EFE6"/>
+  <rect width="1400" height="620" fill="#F4EFE6"/>
 
-  <!-- top hairline + corner marks -->
-  <line x1="60" y1="54" x2="1340" y2="54" class="rule"/>
-  <text x="60"   y="40" class="mono ink" font-size="11" letter-spacing="2.5">N° 001 &#x2022; DJACOO</text>
-  <text x="1340" y="40" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">MMXXVI</text>
+  <!-- crop marks -->
+  <g class="hair" opacity="0.85">
+    <path d="M22 22 h14 M22 22 v14"/>
+    <path d="M1378 22 h-14 M1378 22 v14"/>
+    <path d="M22 598 h14 M22 598 v-14"/>
+    <path d="M1378 598 h-14 M1378 598 v-14"/>
+  </g>
 
-  <!-- geometric composition (right) -->
-  <rect x="940"  y="108" width="210" height="210" class="ink"/>
-  <circle cx="1110" cy="288" r="172" class="red"/>
-  <rect x="1288" y="94"  width="3"   height="372" class="ink"/>
-  <circle cx="1110" cy="288" r="6" fill="#F4EFE6"/>
+  <!-- registration mark (Swiss target) -->
+  <g class="hair" transform="translate(1356 82)" opacity="0.9">
+    <circle r="8"/>
+    <circle r="3"/>
+    <path d="M-13 0 h26 M0 -13 v26"/>
+  </g>
+
+  <!-- top hairline -->
+  <line x1="60" y1="56" x2="1330" y2="56" stroke="#0A0A0A" stroke-width="1" opacity="0.55"/>
+
+  <!-- top mono rail -->
+  <text x="60"   y="42" class="mono ink" font-size="11" letter-spacing="2.5">N° 001 &#x2002;&#x00B7;&#x2002; DJACOO &#x2002;&#x00B7;&#x2002; PROFILE</text>
+  <text x="1330" y="42" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">MMXXVI &#x2002;&#x00B7;&#x2002; A3 LANDSCAPE</text>
+
+  <!-- composition: ghost echo outline -->
+  <circle cx="1110" cy="300" r="212" class="hair" opacity="0.35"/>
+
+  <!-- composition: ink square -->
+  <rect x="940" y="120" width="210" height="210" class="ink"/>
+
+  <!-- composition: vermillion disc -->
+  <circle cx="1110" cy="300" r="172" class="red"/>
+
+  <!-- composition: vertical ink bar -->
+  <rect x="1292" y="90" width="2" height="440" class="ink"/>
+
+  <!-- dimension annotation: disc diameter -->
+  <g opacity="0.75">
+    <line x1="1232" y1="202" x2="1312" y2="140" class="hair"/>
+    <circle cx="1232" cy="202" r="1.8" class="ink"/>
+    <text x="1316" y="136" class="mono ink" font-size="10" letter-spacing="2">&#x00D8; 344</text>
+  </g>
+
+  <!-- dimension annotation: square size -->
+  <g opacity="0.75">
+    <line x1="940" y1="120" x2="898" y2="78" class="hair"/>
+    <circle cx="940" cy="120" r="1.8" class="ink"/>
+    <text x="894" y="74" class="mono ink" font-size="10" letter-spacing="2" text-anchor="end">210 &#x00D7; 210</text>
+  </g>
 
   <!-- wordmark -->
-  <text x="56" y="300" class="sans ink" font-size="196" font-weight="900" letter-spacing="-10">djacoo</text>
+  <text x="52" y="300" class="sans ink" font-size="196" font-weight="900" letter-spacing="-10">djacoo</text>
 
   <!-- subtitles -->
-  <text x="62" y="344" class="sans ink" font-size="16" font-weight="700" letter-spacing="4.5">MSC &#x2002;&#x00B7;&#x2002; ARTIFICIAL INTELLIGENCE &#x2002;&#x00B7;&#x2002; COMPUTER SCIENCE</text>
-  <text x="62" y="372" class="sans red" font-size="13" font-weight="500" letter-spacing="5">UNIVERSIT&#xC0; DEGLI STUDI DI VERONA</text>
+  <text x="58" y="344" class="sans ink" font-size="16" font-weight="700" letter-spacing="4.5">MSC &#x2002;&#x00B7;&#x2002; ARTIFICIAL INTELLIGENCE &#x2002;&#x00B7;&#x2002; COMPUTER SCIENCE</text>
+  <text x="58" y="374" class="sans red" font-size="13" font-weight="500" letter-spacing="5">UNIVERSIT&#xC0; DEGLI STUDI DI VERONA</text>
 
-  <!-- accent bars under subtitle -->
-  <rect x="62"  y="398" width="48"  height="3" class="ink"/>
-  <rect x="118" y="398" width="14"  height="3" class="red"/>
+  <!-- accent bars -->
+  <rect x="58"  y="400" width="56" height="3" class="ink"/>
+  <rect x="122" y="400" width="18" height="3" class="red"/>
 
-  <!-- bottom hairline + mono metadata -->
-  <line x1="60" y1="488" x2="1340" y2="488" class="rule"/>
-  <text x="60"   y="510" class="mono ink" font-size="11" letter-spacing="2.5">LAT 45.44&#xB0;N &#x2002;&#x00B7;&#x2002; LON 10.99&#xB0;E</text>
-  <text x="700"  y="510" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="middle">AI &#x2002;&#x00B7;&#x2002; ML &#x2002;&#x00B7;&#x2002; BIOINFORMATICS</text>
-  <text x="1340" y="510" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">VERONA / ITALIA</text>
-  <text x="60"   y="528" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55">TYPESET IN HELVETICA &amp; JETBRAINS MONO</text>
-  <text x="1340" y="528" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="end">PROFILE / GITHUB</text>
+  <!-- tagline (italic) -->
+  <text x="58" y="440" class="sans ink" font-size="15" font-weight="400" font-style="italic">An ongoing investigation of models, code, and the</text>
+  <text x="58" y="462" class="sans ink" font-size="15" font-weight="400" font-style="italic">space between data and meaning.</text>
+
+  <!-- signature / monogram mark -->
+  <g transform="translate(58 502)">
+    <rect width="22" height="22" class="ink"/>
+    <text x="11" y="16" class="sans" font-size="13" font-weight="900" fill="#F4EFE6" text-anchor="middle">j</text>
+  </g>
+  <text x="88" y="518" class="mono ink" font-size="10" letter-spacing="2" opacity="0.65">JACOPO PARRETTI &#x2002;/&#x2002; SIGNED</text>
+
+  <!-- bottom hairline -->
+  <line x1="60" y1="560" x2="1330" y2="560" stroke="#0A0A0A" stroke-width="1" opacity="0.55"/>
+
+  <!-- bottom mono rail -->
+  <text x="60"   y="582" class="mono ink" font-size="11" letter-spacing="2.5">LAT 45.44&#xB0;N &#x2002;&#x00B7;&#x2002; LON 10.99&#xB0;E</text>
+  <text x="695"  y="582" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="middle">AI &#x2002;&#x00B7;&#x2002; ML &#x2002;&#x00B7;&#x2002; BIOINFORMATICS</text>
+  <text x="1330" y="582" class="mono ink" font-size="11" letter-spacing="2.5" text-anchor="end">VERONA / ITALIA</text>
+
+  <!-- colophon rail -->
+  <text x="60"   y="598" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55">SET IN HELVETICA NEUE &amp; JETBRAINS MONO</text>
+  <text x="695"  y="598" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="middle">GRID 12 &#x00D7; 8 &#x2002;&#x00B7;&#x2002; MARGIN 60</text>
+  <text x="1330" y="598" class="mono ink" font-size="10" letter-spacing="2" opacity="0.55" text-anchor="end">EDITION 01 &#x2044; &#x221E;</text>
 </svg>
