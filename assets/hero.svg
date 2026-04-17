@@ -212,15 +212,8 @@
     </g>
   </g>
 
-  <!-- WORDMARK: gradient shimmer + smooth per-letter opacity wave -->
-  <text x="800" y="460" class="serif" font-size="160" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">
-    <tspan>d<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="0s"    repeatCount="indefinite"/></tspan>
-    <tspan>j<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="0.35s" repeatCount="indefinite"/></tspan>
-    <tspan>a<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="0.7s"  repeatCount="indefinite"/></tspan>
-    <tspan>c<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="1.05s" repeatCount="indefinite"/></tspan>
-    <tspan>o<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="1.4s"  repeatCount="indefinite"/></tspan>
-    <tspan>o<animate attributeName="opacity" values="0.8;1;0.8" dur="5s" begin="1.75s" repeatCount="indefinite"/></tspan>
-  </text>
+  <!-- WORDMARK: gradient shimmer + smooth opacity breath -->
+  <text x="800" y="460" class="serif" font-size="160" font-weight="400" text-anchor="middle" letter-spacing="-2" fill="url(#inkshine)">djacoo<animate attributeName="opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/></text>
 
   <!-- italic subtitle: breath + gentle rotation -->
   <g transform="translate(800 555)">
